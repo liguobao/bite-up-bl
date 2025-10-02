@@ -29,6 +29,8 @@ jobs:
         run: npm install
       - name: Build site
         run: npm run build
+      - name: Create 404 fallback
+        run: cp dist/index.html dist/404.html
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
