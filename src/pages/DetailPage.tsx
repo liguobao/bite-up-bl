@@ -46,7 +46,11 @@ const DetailPage = () => {
       <main className="detail-body">
         <section className="detail-visual">
           <div className="detail-media">
-            <img src={videoInfo.thumbnail} alt={videoInfo.title} />
+            <img
+              src={videoInfo.thumbnail}
+              alt={videoInfo.title}
+              referrerPolicy="no-referrer"
+            />
             <div className="detail-media-overlay">
               <span className="duration">{videoInfo.duration}</span>
               {metadata.featured && <span className="badge">精选</span>}
@@ -109,7 +113,11 @@ const DetailPage = () => {
           </div>
 
           <div className="detail-uploader">
-            <img src={uploader.avatar} alt={uploader.name} />
+            <img
+              src={uploader.avatar}
+              alt={uploader.name}
+              referrerPolicy="no-referrer"
+            />
             <div>
               <span className="name">{uploader.name}</span>
               <div className="sub">
@@ -133,7 +141,11 @@ const DetailPage = () => {
 
           <div className="detail-recommend">
             <div className="recommender">
-              <img src={recommender.avatar} alt={recommender.name} />
+              <img
+                src={recommender.avatar}
+                alt={recommender.name}
+                referrerPolicy="no-referrer"
+              />
               <div>
                 <span className="name">{recommender.name}</span>
                 <span className="role">{recommender.role}</span>

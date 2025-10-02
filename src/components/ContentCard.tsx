@@ -15,7 +15,12 @@ const ContentCard: FC<ContentCardProps> = ({ item }) => {
   return (
     <article className="content-card" data-featured={metadata.featured}>
       <div className="content-cover">
-        <img src={videoInfo.thumbnail} alt={videoInfo.title} loading="lazy" />
+        <img
+          src={videoInfo.thumbnail}
+          alt={videoInfo.title}
+          loading="lazy"
+          referrerPolicy="no-referrer"
+        />
         <div className="content-cover-top">
           {metadata.featured && <span className="badge">精选</span>}
           <span className="duration">{videoInfo.duration}</span>
@@ -32,7 +37,12 @@ const ContentCard: FC<ContentCardProps> = ({ item }) => {
       </div>
       <div className="content-info">
         <div className="creator">
-          <img src={uploader.avatar} alt="" aria-hidden="true" />
+          <img
+            src={uploader.avatar}
+            alt=""
+            aria-hidden="true"
+            referrerPolicy="no-referrer"
+          />
           <div>
             <span className="name">{uploader.name}</span>
             <span className="meta">

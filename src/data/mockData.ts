@@ -86,15 +86,16 @@ export const mockContent: BiteContentItem[] = typedData.map((item) => ({
   ...item,
   videoInfo: {
     ...item.videoInfo,
-    videoUrl: DEFAULT_BILIBILI_URL,
-    thumbnail: createPlaceholderThumbnail(item.videoInfo.title),
+    videoUrl: item.videoInfo.videoUrl?.trim() || DEFAULT_BILIBILI_URL,
+    thumbnail:
+      item.videoInfo.thumbnail?.trim() || createPlaceholderThumbnail(item.videoInfo.title),
   },
   uploader: {
     ...item.uploader,
-    avatar: createAvatarPlaceholder(item.uploader.name),
+    avatar: item.uploader.avatar?.trim() || createAvatarPlaceholder(item.uploader.name),
   },
   recommender: {
     ...item.recommender,
-    avatar: createAvatarPlaceholder(item.recommender.name),
+    avatar: item.recommender.avatar?.trim() || createAvatarPlaceholder(item.recommender.name),
   },
 }));
