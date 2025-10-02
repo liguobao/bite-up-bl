@@ -1,0 +1,521 @@
+[
+  {
+    "id": "video_001",
+    "uploader": {
+      "id": "up_001",
+      "name": "美食探索者小王",
+      "avatar": "https://images.example.com/avatar/xiaowang.jpg",
+      "bio": "专注于发掘各地特色美食",
+      "followerCount": 156000,
+      "verified": true
+    },
+    "videoInfo": {
+      "title": "探秘四川成都最正宗的麻婆豆腐制作工艺",
+      "videoUrl": "https://www.bilibili.com/video/BV1234567890",
+      "thumbnail": "https://images.example.com/thumbnails/video_001.jpg",
+      "duration": "15:30",
+      "publishDate": "2024-03-15T10:30:00Z",
+      "viewCount": 89000,
+      "likeCount": 5600,
+      "description": "今天带大家深入成都老街，寻找最正宗的麻婆豆腐制作工艺，从选料到爆炒一步不落。"
+    },
+    "specialtyProduct": {
+      "title": "正宗四川麻婆豆腐调料包",
+      "description": "精选四川郫县豆瓣酱，麻辣鲜香，一包即可制作正宗麻婆豆腐。",
+      "tags": ["四川特产", "调料", "麻婆豆腐", "正宗", "家庭装"]
+    },
+    "externalLinks": [
+      {
+        "title": "淘宝官方旗舰店购买",
+        "url": "https://item.taobao.com/item.htm?id=123456789",
+        "type": "purchase",
+        "platform": "taobao"
+      },
+      {
+        "title": "京东自营店购买",
+        "url": "https://item.jd.com/123456789.html",
+        "type": "purchase",
+        "platform": "jingdong"
+      },
+      {
+        "title": "四川美食文化介绍",
+        "url": "https://example.com/sichuan-food-culture",
+        "type": "reference",
+        "platform": "blog"
+      }
+    ],
+    "recommender": {
+      "id": "rec_001",
+      "name": "美食达人小李",
+      "avatar": "https://images.example.com/avatar/xiaoli.jpg",
+      "role": "美食博主",
+      "credibility": 4.8,
+      "recommendReason": "这个调料包真的很正宗，味道和我在成都吃到的一模一样！",
+      "recommendDate": "2024-03-16T08:20:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-03-15T10:30:00Z",
+      "updatedAt": "2024-03-16T09:15:00Z",
+      "status": "published",
+      "category": "市井小吃",
+      "region": "四川",
+      "featured": true
+    }
+  },
+  {
+    "id": "video_002",
+    "uploader": {
+      "id": "up_002",
+      "name": "阿婆味道馆",
+      "avatar": "https://images.example.com/avatar/apotaste.jpg",
+      "bio": "记录街巷里的阿婆味道",
+      "followerCount": 98000,
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "上海弄堂里的糟卤醉鸡饭",
+      "videoUrl": "https://www.bilibili.com/video/BV2234567811",
+      "thumbnail": "https://images.example.com/thumbnails/video_002.jpg",
+      "duration": "08:45",
+      "publishDate": "2024-04-02T04:20:00Z",
+      "viewCount": 54000,
+      "likeCount": 3200,
+      "description": "阿婆用祖传配方做的糟卤醉鸡，配上一碗糯米饭，鲜香醉人。"
+    },
+    "specialtyProduct": {
+      "title": "手工糟卤调味组合",
+      "description": "传统糟卤工艺，低温发酵，适合腌制凉菜和醉味小食。",
+      "tags": ["上海", "糟卤", "醉鸡", "老味道"]
+    },
+    "externalLinks": [
+      {
+        "title": "天猫店铺购买",
+        "url": "https://example.com/tmall/zao-lu",
+        "type": "purchase",
+        "platform": "taobao"
+      },
+      {
+        "title": "配方笔记",
+        "url": "https://note.example.com/recipe/zao-lu",
+        "type": "reference",
+        "platform": "blog"
+      }
+    ],
+    "recommender": {
+      "id": "rec_002",
+      "name": "弄堂吃货团",
+      "avatar": "https://images.example.com/avatar/nongtang.jpg",
+      "role": "社区主理人",
+      "credibility": 4.6,
+      "recommendReason": "糟卤香气十足，冰箱常备很实用。",
+      "recommendDate": "2024-04-03T02:10:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-04-02T04:20:00Z",
+      "updatedAt": "2024-04-03T05:00:00Z",
+      "status": "published",
+      "category": "家常菜",
+      "region": "上海",
+      "featured": false
+    }
+  },
+  {
+    "id": "video_003",
+    "uploader": {
+      "id": "up_003",
+      "name": "潮汕小渔",
+      "avatar": "https://images.example.com/avatar/chaoshan.jpg",
+      "bio": "潮汕海边长大的00后",
+      "followerCount": 212000,
+      "verified": true
+    },
+    "videoInfo": {
+      "title": "凌晨四点的潮汕牛肉粿条汤",
+      "videoUrl": "https://www.bilibili.com/video/BV3333333399",
+      "thumbnail": "https://images.example.com/thumbnails/video_003.jpg",
+      "duration": "06:12",
+      "publishDate": "2024-02-28T19:00:00Z",
+      "viewCount": 134000,
+      "likeCount": 9100,
+      "description": "跟着阿婆去牛肉档，现切黄牛肉泡入滚烫汤底，配上潮汕特制沙茶酱。"
+    },
+    "specialtyProduct": {
+      "title": "潮汕沙茶酱礼盒",
+      "description": "手炒花生、虾米和椰浆调和，香气层次丰富，牛肉火锅好搭档。",
+      "tags": ["潮汕", "沙茶酱", "牛肉火锅", "礼盒"]
+    },
+    "externalLinks": [
+      {
+        "title": "阿婆沙茶酱微店",
+        "url": "https://weidian.example.com/product/sha-cha",
+        "type": "purchase",
+        "platform": "other"
+      },
+      {
+        "title": "潮汕牛肉档地图",
+        "url": "https://maps.example.com/chaoshan",
+        "type": "reference",
+        "platform": "blog"
+      }
+    ],
+    "recommender": {
+      "id": "rec_003",
+      "name": "牛肉档阿豪哥",
+      "avatar": "https://images.example.com/avatar/ahao.jpg",
+      "role": "档主",
+      "credibility": 4.9,
+      "recommendReason": "这款沙茶酱是我家档口最常用的味道。",
+      "recommendDate": "2024-02-29T01:30:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-02-28T19:00:00Z",
+      "updatedAt": "2024-03-01T06:40:00Z",
+      "status": "published",
+      "category": "早餐",
+      "region": "广东",
+      "featured": true
+    }
+  },
+  {
+    "id": "video_004",
+    "uploader": {
+      "id": "up_004",
+      "name": "桂花糯米糍",
+      "avatar": "https://images.example.com/avatar/guihua.jpg",
+      "bio": "甜品店主，喜欢用花入味",
+      "followerCount": 64000,
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "杭州街头限量桂花糖年糕",
+      "videoUrl": "https://www.bilibili.com/video/BV4444444412",
+      "thumbnail": "https://images.example.com/thumbnails/video_004.jpg",
+      "duration": "05:26",
+      "publishDate": "2024-05-08T09:00:00Z",
+      "viewCount": 27600,
+      "likeCount": 1800,
+      "description": "杭城阿婆用自晒桂花熬糖，裹在刚出锅的糯米年糕外层，香甜粘糯。"
+    },
+    "specialtyProduct": {
+      "title": "手工桂花糖膏",
+      "description": "鲜桂花低温熬制，拌酸奶、做甜品皆宜。",
+      "tags": ["杭州", "桂花", "甜品", "糖膏"]
+    },
+    "externalLinks": [
+      {
+        "title": "线下门店预约",
+        "url": "https://example.com/store/guihua",
+        "type": "reference",
+        "platform": "blog"
+      },
+      {
+        "title": "微信小商店",
+        "url": "https://shop.example.com/guihua",
+        "type": "purchase",
+        "platform": "other"
+      }
+    ],
+    "recommender": {
+      "id": "rec_004",
+      "name": "杭味笔记",
+      "avatar": "https://images.example.com/avatar/hangzhou.jpg",
+      "role": "城市向导",
+      "credibility": 4.5,
+      "recommendReason": "桂花香浓不腻，搭配热豆乳绝了。",
+      "recommendDate": "2024-05-09T07:10:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-05-08T09:00:00Z",
+      "updatedAt": "2024-05-09T10:15:00Z",
+      "status": "published",
+      "category": "甜品",
+      "region": "浙江",
+      "featured": false
+    }
+  },
+  {
+    "id": "video_005",
+    "uploader": {
+      "id": "up_005",
+      "name": "湘味阿芳",
+      "avatar": "https://images.example.com/avatar/xiangwei.jpg",
+      "bio": "爱吃辣的湖南妹子",
+      "followerCount": 187000,
+      "verified": true
+    },
+    "videoInfo": {
+      "title": "长沙后半夜的臭豆腐和糖油粑粑",
+      "videoUrl": "https://www.bilibili.com/video/BV5555555523",
+      "thumbnail": "https://images.example.com/thumbnails/video_005.jpg",
+      "duration": "09:18",
+      "publishDate": "2024-01-12T15:30:00Z",
+      "viewCount": 165000,
+      "likeCount": 13200,
+      "description": "陪阿婆守摊到天亮，现炸臭豆腐外酥里嫩，糖油粑粑刚出锅就卖光。"
+    },
+    "specialtyProduct": {
+      "title": "手工臭豆腐卤水",
+      "description": "选用黑豆发酵的传统卤水，搭配烤制炸制都适合。",
+      "tags": ["长沙", "夜宵", "臭豆腐", "糖油粑粑"]
+    },
+    "externalLinks": [
+      {
+        "title": "抖音小店",
+        "url": "https://douyin.example.com/shop/choudoufu",
+        "type": "purchase",
+        "platform": "douyin"
+      },
+      {
+        "title": "湘江夜游路线",
+        "url": "https://travel.example.com/changsha-night",
+        "type": "reference",
+        "platform": "blog"
+      }
+    ],
+    "recommender": {
+      "id": "rec_005",
+      "name": "长沙夜宵地图",
+      "avatar": "https://images.example.com/avatar/nightmap.jpg",
+      "role": "本地美食号",
+      "credibility": 4.7,
+      "recommendReason": "卤水香味层次丰富，辣度可以自调。",
+      "recommendDate": "2024-01-13T03:15:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-01-12T15:30:00Z",
+      "updatedAt": "2024-01-13T06:25:00Z",
+      "status": "published",
+      "category": "夜宵",
+      "region": "湖南",
+      "featured": true
+    }
+  },
+  {
+    "id": "video_006",
+    "uploader": {
+      "id": "up_006",
+      "name": "滇味阿瑞",
+      "avatar": "https://images.example.com/avatar/dianwei.jpg",
+      "bio": "云南在地旅行记录",
+      "followerCount": 73000,
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "大理清晨的鲜花饼手作课",
+      "videoUrl": "https://www.bilibili.com/video/BV6666666644",
+      "thumbnail": "https://images.example.com/thumbnails/video_006.jpg",
+      "duration": "07:56",
+      "publishDate": "2024-03-30T06:50:00Z",
+      "viewCount": 48200,
+      "likeCount": 4100,
+      "description": "阿婆带着我们在院子里摘玫瑰花瓣，现场做出层层酥的鲜花饼。"
+    },
+    "specialtyProduct": {
+      "title": "鲜花饼礼盒装",
+      "description": "云南可食用玫瑰制作，当日烘焙冷链配送。",
+      "tags": ["云南", "鲜花饼", "手作课", "玫瑰"]
+    },
+    "externalLinks": [
+      {
+        "title": "小红书预约体验",
+        "url": "https://xiaohongshu.example.com/experience/flowercake",
+        "type": "reference",
+        "platform": "xiaohongshu"
+      },
+      {
+        "title": "官方商城",
+        "url": "https://shop.example.com/flowercake",
+        "type": "purchase",
+        "platform": "other"
+      }
+    ],
+    "recommender": {
+      "id": "rec_006",
+      "name": "大理慢慢行",
+      "avatar": "https://images.example.com/avatar/dalimoment.jpg",
+      "role": "旅行作者",
+      "credibility": 4.4,
+      "recommendReason": "体验课氛围很治愈，还能带走现烤点心。",
+      "recommendDate": "2024-03-31T05:40:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-03-30T06:50:00Z",
+      "updatedAt": "2024-03-31T08:20:00Z",
+      "status": "published",
+      "category": "旅行美食",
+      "region": "云南",
+      "featured": false
+    }
+  },
+  {
+    "id": "video_007",
+    "uploader": {
+      "id": "up_007",
+      "name": "渝味江湖",
+      "avatar": "https://images.example.com/avatar/yujianghu.jpg",
+      "bio": "做一碗有烟火气的川渝味",
+      "followerCount": 254000,
+      "verified": true
+    },
+    "videoInfo": {
+      "title": "重庆十八梯的糍粑辣子鸡",
+      "videoUrl": "https://www.bilibili.com/video/BV7777777755",
+      "thumbnail": "https://images.example.com/thumbnails/video_007.jpg",
+      "duration": "11:20",
+      "publishDate": "2024-04-18T13:25:00Z",
+      "viewCount": 201000,
+      "likeCount": 15400,
+      "description": "糍粑辣子裹满鸡块，每一口都是椒香爆炸，阿婆教我如何炸得酥脆不油。"
+    },
+    "specialtyProduct": {
+      "title": "糍粑辣子礼盒",
+      "description": "纯手工石磨糍粑辣椒面，拌菜下饭两相宜。",
+      "tags": ["重庆", "辣子鸡", "糍粑辣子", "下饭菜"]
+    },
+    "externalLinks": [
+      {
+        "title": "抖音小店购买",
+        "url": "https://douyin.example.com/shop/cibala",
+        "type": "purchase",
+        "platform": "douyin"
+      },
+      {
+        "title": "制作教程直播回放",
+        "url": "https://example.com/live/replay/cibala",
+        "type": "video",
+        "platform": "other"
+      }
+    ],
+    "recommender": {
+      "id": "rec_007",
+      "name": "重庆巷子口",
+      "avatar": "https://images.example.com/avatar/alley.jpg",
+      "role": "在地美食号",
+      "credibility": 4.9,
+      "recommendReason": "辣子香味扎实，拌面拌饭都很带劲。",
+      "recommendDate": "2024-04-19T10:00:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-04-18T13:25:00Z",
+      "updatedAt": "2024-04-19T12:40:00Z",
+      "status": "published",
+      "category": "热菜",
+      "region": "重庆",
+      "featured": true
+    }
+  },
+  {
+    "id": "video_008",
+    "uploader": {
+      "id": "up_008",
+      "name": "北海后厨",
+      "avatar": "https://images.example.com/avatar/beihai.jpg",
+      "bio": "海味与家常的融合实验室",
+      "followerCount": 52000,
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "北海渔港的酸甜菠萝炒海虾",
+      "videoUrl": "https://www.bilibili.com/video/BV8888888866",
+      "thumbnail": "https://images.example.com/thumbnails/video_008.jpg",
+      "duration": "06:58",
+      "publishDate": "2024-02-05T11:30:00Z",
+      "viewCount": 39600,
+      "likeCount": 3600,
+      "description": "阿婆用刚上岸的海虾搭配菠萝，酸甜开胃，宴客超受欢迎。"
+    },
+    "specialtyProduct": {
+      "title": "北海船家鲜虾礼盒",
+      "description": "当日捕捞鲜虾，低温速冻锁鲜，附赠自制酱料。",
+      "tags": ["北海", "海鲜", "快手菜", "家庭宴客"]
+    },
+    "externalLinks": [
+      {
+        "title": "京东生鲜到家",
+        "url": "https://item.jd.com/seafood-box.html",
+        "type": "purchase",
+        "platform": "jingdong"
+      },
+      {
+        "title": "海鲜处理技巧",
+        "url": "https://example.com/blog/seafood-tips",
+        "type": "reference",
+        "platform": "blog"
+      }
+    ],
+    "recommender": {
+      "id": "rec_008",
+      "name": "海味家庭餐",
+      "avatar": "https://images.example.com/avatar/seafoodfamily.jpg",
+      "role": "家庭主厨",
+      "credibility": 4.3,
+      "recommendReason": "虾子个头均匀，酱料偏甜孩子也爱吃。",
+      "recommendDate": "2024-02-06T06:05:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-02-05T11:30:00Z",
+      "updatedAt": "2024-02-06T07:40:00Z",
+      "status": "published",
+      "category": "海鲜",
+      "region": "广西",
+      "featured": false
+    }
+  },
+  {
+    "id": "video_009",
+    "uploader": {
+      "id": "up_009",
+      "name": "京味阿芝",
+      "avatar": "https://images.example.com/avatar/jingwei.jpg",
+      "bio": "胡同里的四季味道",
+      "followerCount": 115000,
+      "verified": true
+    },
+    "videoInfo": {
+      "title": "老北京杏仁豆腐配豌豆黄",
+      "videoUrl": "https://www.bilibili.com/video/BV9999999977",
+      "thumbnail": "https://images.example.com/thumbnails/video_009.jpg",
+      "duration": "04:42",
+      "publishDate": "2024-03-10T08:15:00Z",
+      "viewCount": 67200,
+      "likeCount": 5100,
+      "description": "胡同阿婆每天清晨磨杏仁，搭配豌豆黄，两种经典老北京甜点一次满足。"
+    },
+    "specialtyProduct": {
+      "title": "京味手磨杏仁露",
+      "description": "精选南杏与北杏低温慢磨，0 添加糖，口感纯净。",
+      "tags": ["北京", "传统甜点", "杏仁豆腐", "豌豆黄"]
+    },
+    "externalLinks": [
+      {
+        "title": "线下门店导航",
+        "url": "https://maps.example.com/hutong-dessert",
+        "type": "reference",
+        "platform": "blog"
+      },
+      {
+        "title": "微博店铺预约",
+        "url": "https://weibo.example.com/shop/almond",
+        "type": "purchase",
+        "platform": "weibo"
+      }
+    ],
+    "recommender": {
+      "id": "rec_009",
+      "name": "京城味道收集者",
+      "avatar": "https://images.example.com/avatar/jingcollection.jpg",
+      "role": "非遗记录者",
+      "credibility": 4.8,
+      "recommendReason": "杏仁露细腻香浓，搭配豌豆黄正好解腻。",
+      "recommendDate": "2024-03-10T12:50:00Z"
+    },
+    "metadata": {
+      "createdAt": "2024-03-10T08:15:00Z",
+      "updatedAt": "2024-03-10T13:30:00Z",
+      "status": "published",
+      "category": "老北京",
+      "region": "北京",
+      "featured": true
+    }
+  }
+]
