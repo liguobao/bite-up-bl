@@ -31,7 +31,6 @@ const ContentCard: FC<ContentCardProps> = ({ item }) => {
           </h2>
           <div className="cover-stats" aria-label="互动数据">
             <span>❤ {formatStat(videoInfo.likeCount)}</span>
-            <span>▶ {formatStat(videoInfo.viewCount)}</span>
           </div>
         </div>
       </div>
@@ -50,7 +49,7 @@ const ContentCard: FC<ContentCardProps> = ({ item }) => {
             </span>
           </div>
         </div>
-        <span className="follower-chip">{formatFollowers(uploader.followerCount)}</span>
+        <span className="follower-chip" aria-hidden="true" />
       </div>
     </article>
   );

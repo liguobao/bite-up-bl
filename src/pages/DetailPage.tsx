@@ -95,10 +95,6 @@ const DetailPage = () => {
 
           <div className="detail-stats" aria-label="内容统计">
             <div className="stat">
-              <span className="label">播放量</span>
-              <span className="value">{formatStat(videoInfo.viewCount)}</span>
-            </div>
-            <div className="stat">
               <span className="label">点赞</span>
               <span className="value">{formatStat(videoInfo.likeCount)}</span>
             </div>
@@ -121,7 +117,6 @@ const DetailPage = () => {
             <div>
               <span className="name">{uploader.name}</span>
               <div className="sub">
-                <span>{formatFollowers(uploader.followerCount)} 关注</span>
                 {uploader.verified && <span className="verified">官方认证</span>}
               </div>
               <p className="bio">{uploader.bio}</p>
