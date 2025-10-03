@@ -1,0 +1,53 @@
+{
+  "bvid": "BV1pmp2zjEdZ",
+  "uploader": {
+    "id": "up_515741102",
+    "name": "玉林阿婆",
+    "avatar": "https://i2.hdslb.com/bfs/face/0608f1c161dbc249cd9da2e09a9ef6c868ccb2b6.jpg",
+    "bio": "两广乡村美食创作者｜分享田园生活与传统手艺",
+    "followerCount": 0,
+    "verified": false
+  },
+  "videoInfo": {
+    "title": "芒果还能炒着吃？阿婆摘回200斤大芒果，教你5种下饭做法",
+    "videoUrl": "https://www.bilibili.com/video/BV1pmp2zjEdZ",
+    "thumbnail": "https://i2.hdslb.com/bfs/archive/ccbf7a4250bfeaba321bddcd9293e06560c68b6f.jpg",
+    "duration": "28:08",
+    "publishDate": "2025-09-19T09:00:00Z",
+    "likeCount": 4874,
+    "description": "芒果还能炒着吃？阿婆摘回200斤大芒果，分享5种酸甜下饭的家常做法。"
+  },
+  "specialtyProduct": {
+    "title": "田园香芒家庭礼盒",
+    "description": "精选玉林现摘大芒果，附赠阿婆秘制腌芒果和炒芒果调味配方，复刻视频里的5种做法。",
+    "tags": ["芒果", "家常菜", "酸甜下饭", "玉林风味"]
+  },
+  "externalLinks": [
+    {
+      "title": "玉林阿婆 · B站主页",
+      "url": "https://space.bilibili.com/515741102",
+      "type": "profile",
+      "platform": "bilibili"
+    },
+    {
+      "title": "广西玉林鲜芒果礼盒",
+      "url": "https://item.taobao.com/item.htm?id=678901234567",
+      "type": "purchase",
+      "platform": "taobao"
+    },
+    {
+      "title": "视频原链接",
+      "url": "https://www.bilibili.com/video/BV1pmp2zjEdZ",
+      "type": "video",
+      "platform": "bilibili"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-09-16T10:53:36Z",
+    "updatedAt": "2025-09-19T09:00:00Z",
+    "status": "published",
+    "category": "美食制作",
+    "region": "广西",
+    "featured": true
+  }
+}

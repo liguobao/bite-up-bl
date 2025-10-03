@@ -1,0 +1,47 @@
+{
+  "bvid": "BV1tZePzfEwp",
+  "uploader": {
+    "id": "up_010",
+    "name": "不会种地的文琪",
+    "avatar": "https://i2.hdslb.com/bfs/face/d20a2d8b46c6b70ed4491b2dee1c2387c7b4e7d1.jpg",
+    "bio": "95后种地博主｜内蒙人在成都蒲江当新农人 300亩果园｜爱媛果冻橙、耙耙柑、红心猕猴桃 ENFP｜分享种植日常略带小科普 希望大家都开开心心",
+    "followerCount": 46000,
+    "verified": false
+  },
+  "videoInfo": {
+    "title": "我的猕猴桃终于成熟啦啦啦！！！",
+    "videoUrl": "https://www.bilibili.com/video/BV1tZePzfEwp/?spm_id_from=333.337.search-card.all.click&vd_source=5c50e85cc4650355b40cc06d460e6a4d",
+    "thumbnail": "https://i2.hdslb.com/bfs/archive/d913a1fe82f8c8861741caba8d5e7d0a72739367.jpg",
+    "duration": "07:32",
+    "publishDate": "2025-08-19T06:20:00Z",
+    "likeCount": 0,
+    "description": "跟着文琪一起检查猕猴桃园，记录从开花到成熟的全过程，分享有机种植的小妙招。"
+  },
+  "specialtyProduct": {
+    "title": "自然熟猕猴桃礼盒",
+    "description": "山地昼夜温差大的猕猴桃，现摘现发，酸甜多汁。",
+    "tags": ["猕猴桃", "自然熟", "田园采摘", "礼盒装"]
+  },
+  "externalLinks": [
+    {
+      "title": "不会种地的文琪 · B站主页",
+      "url": "https://space.bilibili.com/17650967",
+      "type": "profile",
+      "platform": "bilibili"
+    },
+    {
+      "title": "淘宝限量礼盒",
+      "url": "https://item.taobao.com/item.htm?ak=27696150&ali_trackid=2%3Amm_4855983670_2989800060_115056800101%3A1759416231852_185943339_0&bxsign=tbkPHxUZDgVym37V_KvhFDjdYImyN6ggKZVWgjt2NtF7OmX1V1BYrtduXm5s-LSiRcQpAGGtLaUzjkwQ94GCkeH62fQd10Qk9PwObdvC1K7wHB5-V6BG8pUujKXuGDwPbU7plAh9ZpAEQf9G-_aDHRc5gpywrNUbob0we8fDeUVqTW05_rNOPXn25kePzm4kb2R&id=972890495159&union_lens=lensId%3ATAPI%401758108571%402133d6a7_0e35_199576fd59c_7e95%4001%3Brecoveryid%3A185943339_0%401759416231857",
+      "type": "purchase",
+      "platform": "taobao"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-08-19T06:20:00Z",
+    "updatedAt": "2025-08-19T09:10:00Z",
+    "status": "published",
+    "category": "新农人",
+    "region": "四川",
+    "featured": true
+  }
+}

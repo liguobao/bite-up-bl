@@ -5,15 +5,15 @@ import SearchBar from '../components/SearchBar';
 import CategoryTabs from '../components/CategoryTabs';
 import CardGrid from '../components/CardGrid';
 import type { FilterState } from '../components/FilterBar';
-import { mockContent } from '../data/mockData';
+import { biteListItems } from '../data/mockData';
 
 const HomePage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const searchTerm = searchParams.get('q') ?? '';
 
   const filterOptions = useMemo(() => {
-    const regions = Array.from(new Set(mockContent.map((item) => item.metadata.region)));
-    const categories = Array.from(new Set(mockContent.map((item) => item.metadata.category)));
+    const regions = Array.from(new Set(biteListItems.map((item) => item.metadata.region)));
+    const categories = Array.from(new Set(biteListItems.map((item) => item.metadata.category)));
     return { regions, categories };
   }, []);
 
@@ -47,7 +47,7 @@ const HomePage = () => {
 
     const matchesSearch = (text: string) => text.toLowerCase().includes(lowerSearch);
 
-    const candidates = mockContent.filter((item) => {
+    const candidates = biteListItems.filter((item) => {
       if (lowerSearch) {
         const haystack = [
           item.videoInfo.title,

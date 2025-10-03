@@ -1,4 +1,4 @@
-import rawData from '../../data.json';
+import listRaw from './list.json';
 
 export type ExternalLinkPlatform =
   | 'taobao'
@@ -17,13 +17,16 @@ export interface ExternalLink {
   platform: ExternalLinkPlatform;
 }
 
-export interface Uploader {
+export interface UploaderSummary {
   id: string;
   name: string;
   avatar: string;
-  bio: string;
-  followerCount: number;
+  bio?: string;
   verified: boolean;
+}
+
+export interface UploaderDetail extends UploaderSummary {
+  followerCount: number;
 }
 
 export interface VideoInfo {
@@ -51,13 +54,17 @@ export interface ContentMetadata {
   featured: boolean;
 }
 
-export interface BiteContentItem {
-  id: string;
-  uploader: Uploader;
+export interface BiteListItem {
+  bvid: string;
+  uploader: UploaderSummary;
   videoInfo: VideoInfo;
   specialtyProduct: SpecialtyProduct;
-  externalLinks: ExternalLink[];
   metadata: ContentMetadata;
+}
+
+export interface BiteContentItem extends BiteListItem {
+  uploader: UploaderDetail;
+  externalLinks: ExternalLink[];
 }
 
 const DEFAULT_BILIBILI_URL =
@@ -76,18 +83,73 @@ const createAvatarPlaceholder = (name: string) => {
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 };
 
-const typedData = rawData as BiteContentItem[];
+const enhanceVideoInfo = (videoInfo: VideoInfo): VideoInfo => ({
+  ...videoInfo,
+  videoUrl: videoInfo.videoUrl?.trim() || DEFAULT_BILIBILI_URL,
+  thumbnail: videoInfo.thumbnail?.trim() || createPlaceholderThumbnail(videoInfo.title),
+});
 
-export const mockContent: BiteContentItem[] = typedData.map((item) => ({
+const enhanceUploaderSummary = <T extends UploaderSummary>(uploader: T): T => ({
+  ...uploader,
+  bio: uploader.bio ?? '',
+  avatar: uploader.avatar?.trim() || createAvatarPlaceholder(uploader.name),
+});
+
+const enhanceUploaderDetail = (uploader: UploaderDetail): UploaderDetail => ({
+  ...enhanceUploaderSummary(uploader),
+  followerCount: uploader.followerCount ?? 0,
+});
+
+const normalizeSpecialtyProduct = (product: SpecialtyProduct): SpecialtyProduct => ({
+  ...product,
+  tags: product.tags ?? [],
+});
+
+const enhanceListItem = (item: BiteListItem): BiteListItem => ({
   ...item,
-  videoInfo: {
-    ...item.videoInfo,
-    videoUrl: item.videoInfo.videoUrl?.trim() || DEFAULT_BILIBILI_URL,
-    thumbnail:
-      item.videoInfo.thumbnail?.trim() || createPlaceholderThumbnail(item.videoInfo.title),
-  },
-  uploader: {
-    ...item.uploader,
-    avatar: item.uploader.avatar?.trim() || createAvatarPlaceholder(item.uploader.name),
-  },
-}));
+  videoInfo: enhanceVideoInfo(item.videoInfo),
+  uploader: enhanceUploaderSummary(item.uploader),
+  specialtyProduct: normalizeSpecialtyProduct(item.specialtyProduct),
+});
+
+const enhanceDetailItem = (item: BiteContentItem): BiteContentItem => ({
+  ...enhanceListItem(item),
+  uploader: enhanceUploaderDetail(item.uploader),
+  externalLinks: (item.externalLinks ?? []).map((link) => ({
+    ...link,
+    url: link.url.trim(),
+  })),
+});
+
+const rawList = listRaw as BiteListItem[];
+
+export const biteListItems: BiteListItem[] = rawList.map((item) => enhanceListItem(item));
+
+const detailModules = import.meta.glob('./details/*.json', { import: 'default' }) as Record<
+  string,
+  () => Promise<BiteContentItem>
+>;
+
+const detailCache = new Map<string, BiteContentItem>();
+
+export const getDetailByBvid = async (bvid: string): Promise<BiteContentItem | undefined> => {
+  if (!bvid) {
+    return undefined;
+  }
+
+  if (detailCache.has(bvid)) {
+    return detailCache.get(bvid);
+  }
+
+  const path = `./details/${bvid}.json`;
+  const loader = detailModules[path];
+
+  if (!loader) {
+    return undefined;
+  }
+
+  const rawDetail = await loader();
+  const enhanced = enhanceDetailItem(rawDetail);
+  detailCache.set(bvid, enhanced);
+  return enhanced;
+};

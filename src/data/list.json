@@ -1,12 +1,11 @@
 [
   {
-    "id": "video_010",
+    "bvid": "BV1tZePzfEwp",
     "uploader": {
       "id": "up_010",
       "name": "不会种地的文琪",
       "avatar": "https://i2.hdslb.com/bfs/face/d20a2d8b46c6b70ed4491b2dee1c2387c7b4e7d1.jpg",
-      "bio": "95后种地博主｜内蒙人在成都蒲江当新农人 300亩果园｜爱媛果冻橙、耙耙柑、红心猕猴桃 ENFP｜分享种植日常略带小科普 希望大家都开开心心",
-      "followerCount": 46000,
+      "bio": "",
       "verified": false
     },
     "videoInfo": {
@@ -23,20 +22,6 @@
       "description": "山地昼夜温差大的猕猴桃，现摘现发，酸甜多汁。",
       "tags": ["猕猴桃", "自然熟", "田园采摘", "礼盒装"]
     },
-    "externalLinks": [
-      {
-        "title": "不会种地的文琪 · B站主页",
-        "url": "https://space.bilibili.com/17650967",
-        "type": "profile",
-        "platform": "other"
-      },
-      {
-        "title": "淘宝限量礼盒",
-        "url": "https://item.taobao.com/item.htm?ak=27696150&ali_trackid=2%3Amm_4855983670_2989800060_115056800101%3A1759416231852_185943339_0&bxsign=tbkPHxUZDgVym37V_KvhFDjdYImyN6ggKZVWgjt2NtF7OmX1V1BYrtduXm5s-LSiRcQpAGGtLaUzjkwQ94GCkeH62fQd10Qk9PwObdvC1K7wHB5-V6BG8pUujKXuGDwPbU7plAh9ZpAEQf9G-_aDHRc5gpywrNUbob0we8fDeUVqTW05_rNOPXn25kePzm4kb2R&id=972890495159&union_lens=lensId%3ATAPI%401758108571%402133d6a7_0e35_199576fd59c_7e95%4001%3Brecoveryid%3A185943339_0%401759416231857",
-        "type": "purchase",
-        "platform": "taobao"
-      }
-    ],
     "metadata": {
       "createdAt": "2025-08-19T06:20:00Z",
       "updatedAt": "2025-08-19T09:10:00Z",
@@ -47,13 +32,12 @@
     }
   },
   {
-    "id": "video_011",
+    "bvid": "BV1gfhHz3Ega",
     "uploader": {
       "id": "up_011",
       "name": "睡前消息",
       "avatar": "https://i1.hdslb.com/bfs/face/1c56737dfc0deffffc31c78e0cefb0c3ecf7e000.jpg",
-      "bio": "热河省蛮子，刘亦菲粉丝。商务合作微信：MQZ998888",
-      "followerCount": 1000000,
+      "bio": "",
       "verified": true
     },
     "videoInfo": {
@@ -61,7 +45,7 @@
       "videoUrl": "https://www.bilibili.com/video/BV1gfhHz3Ega/?spm_id_from=333.337.search-card.all.click&vd_source=5c50e85cc4650355b40cc06d460e6a4d",
       "thumbnail": "https://i1.hdslb.com/bfs/archive/b733a70e0b800bb11c8e3c4b8dfffa20365ee0e1.jpg",
       "duration": "18:40",
-      "publishDate": "2025-08-01 17:52:38",
+      "publishDate": "2025-08-01T17:52:38Z",
       "likeCount": 0,
       "description": "节目从中医学习体验聊到法律职业伦理，呼吁专业的边界感与责任心。"
     },
@@ -70,23 +54,9 @@
       "description": "豆乳浓郁的软芯小面包，轻负担饱腹，学习工作间隙补充能量。",
       "tags": ["豆乳餐包", "轻食", "早餐", "代餐"]
     },
-    "externalLinks": [
-      {
-        "title": "睡前消息 · B站主页",
-        "url": "https://space.bilibili.com/316568752",
-        "type": "profile",
-        "platform": "other"
-      },
-      {
-        "title": "豆乳餐包淘宝链接",
-        "url": "https://uland.taobao.com/ccoupon/edetail?e=%2BAJz3QPRCYGlhHvvyUNXZfh8CuWt5YH551NtNRhtOmReKih2%2B7Mgvq9zJ%2FeZBrR%2FRbn9WeZ9gY2CayFLTAcKOuo67UPR2Iz4ICIC8oBK9vRcc3OMjErYWvIxbd4gBYpFrot4aGAlj7%2Fcp41oS4BDgcHYBtXq2PDBNWD4GxRk35N2wSBZbM%2BXQarJFVxuK5gazVcifgXlYFMvBJC2YQ1z9VRqRePooC8Yrdq9osKRIBUgTcctY5DjBVMVhg%2BsernFQqO29PIpUL7IWW6N8zHJ%2FmvER5MacQTnJj%2FusqJVFFjm7Cuns7H2BjI%2FkKQLtysfMpNlXekqfJazFIiP6JZTUvRmXMle717n7OTqFwvyL2kR%2BxmP1xMF4b%2FBpDx27Aqm0c58bwF%2B9UIz85OKS0FwcvyT1xeItt8QyUxONJCwrimdSoYdoEE2iA%3D%3D&traceId=212ccb5c17544832384826111e0c7d&union_lens=lensId:TAPI@1754483238@0bbb43fc_0ddf_1987f59a74e_b978@01&cont_id=BV1gfhHz3Ega",
-        "type": "purchase",
-        "platform": "taobao"
-      }
-    ],
     "metadata": {
-      "createdAt": "2025-08-01 17:52:38",
-      "updatedAt": "2025-08-06 09:00:00",
+      "createdAt": "2025-08-01T17:52:38Z",
+      "updatedAt": "2025-08-06T09:00:00Z",
       "status": "published",
       "category": "社会资讯",
       "region": "全国",
@@ -94,13 +64,12 @@
     }
   },
   {
-    "id": "video_012",
+    "bvid": "BV1pmp2zjEdZ",
     "uploader": {
       "id": "up_515741102",
       "name": "玉林阿婆",
       "avatar": "https://i2.hdslb.com/bfs/face/0608f1c161dbc249cd9da2e09a9ef6c868ccb2b6.jpg",
       "bio": "两广乡村美食创作者｜分享田园生活与传统手艺",
-      "followerCount": 0,
       "verified": false
     },
     "videoInfo": {
@@ -117,26 +86,6 @@
       "description": "精选玉林现摘大芒果，附赠阿婆秘制腌芒果和炒芒果调味配方，复刻视频里的5种做法。",
       "tags": ["芒果", "家常菜", "酸甜下饭", "玉林风味"]
     },
-    "externalLinks": [
-      {
-        "title": "玉林阿婆 · B站主页",
-        "url": "https://space.bilibili.com/515741102",
-        "type": "profile",
-        "platform": "bilibili"
-      },
-      {
-        "title": "广西玉林鲜芒果礼盒",
-        "url": "https://item.taobao.com/item.htm?id=678901234567",
-        "type": "purchase",
-        "platform": "taobao"
-      },
-      {
-        "title": "视频原链接",
-        "url": "https://www.bilibili.com/video/BV1pmp2zjEdZ",
-        "type": "video",
-        "platform": "bilibili"
-      }
-    ],
     "metadata": {
       "createdAt": "2025-09-16T10:53:36Z",
       "updatedAt": "2025-09-19T09:00:00Z",

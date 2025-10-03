@@ -1,10 +1,10 @@
 import type { FC } from 'react';
 import { Link } from 'react-router-dom';
-import type { BiteContentItem } from '../data/mockData';
+import type { BiteListItem } from '../data/mockData';
 import ContentCard from './ContentCard';
 
 interface CardGridProps {
-  items: BiteContentItem[];
+  items: BiteListItem[];
 }
 
 const CardGrid: FC<CardGridProps> = ({ items }) => {
@@ -19,7 +19,7 @@ const CardGrid: FC<CardGridProps> = ({ items }) => {
   return (
     <section className="card-grid" aria-live="polite">
       {items.map((item) => (
-        <Link key={item.id} to={`/content/${item.id}`} className="card-link">
+        <Link key={item.bvid} to={`/content/${item.bvid}`} className="card-link">
           <ContentCard item={item} />
         </Link>
       ))}

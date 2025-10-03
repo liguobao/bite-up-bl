@@ -1,9 +1,9 @@
 import type { FC } from 'react';
-import type { BiteContentItem } from '../data/mockData';
+import type { BiteListItem } from '../data/mockData';
 import { formatStat } from '../utils/formatters';
 
 interface ContentCardProps {
-  item: BiteContentItem;
+  item: BiteListItem;
 }
 
 const ContentCard: FC<ContentCardProps> = ({ item }) => {

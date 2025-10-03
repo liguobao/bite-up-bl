@@ -1,12 +1,62 @@
-import { useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { mockContent } from '../data/mockData';
+import type { BiteContentItem } from '../data/mockData';
+import { getDetailByBvid } from '../data/mockData';
 import { formatDate, formatStat } from '../utils/formatters';
 
 const DetailPage = () => {
-  const { id } = useParams<{ id: string }>();
+  const { bvid } = useParams<{ bvid: string }>();
+  const [content, setContent] = useState<BiteContentItem | null>(null);
+  const [loading, setLoading] = useState(false);
 
-  const content = useMemo(() => mockContent.find((item) => item.id === id), [id]);
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadDetail = async () => {
+      if (!bvid) {
+        setContent(null);
+        setLoading(false);
+        return;
+      }
+
+      setLoading(true);
+      try {
+        const detail = await getDetailByBvid(bvid);
+        if (!cancelled) {
+          setContent(detail ?? null);
+        }
+      } catch (error) {
+        if (!cancelled) {
+          setContent(null);
+        }
+      } finally {
+        if (!cancelled) {
+          setLoading(false);
+        }
+      }
+    };
+
+    loadDetail();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [bvid]);
+
+  if (loading) {
+    return (
+      <div className="detail-page">
+        <header className="detail-header">
+          <Link to="/" className="back-button">
+            ← 返回
+          </Link>
+        </header>
+        <div className="detail-empty">
+          <p>内容加载中，请稍候…</p>
+        </div>
+      </div>
+    );
+  }
 
   if (!content) {
     return (
