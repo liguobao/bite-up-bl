@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import type { BiteContentItem } from '../data/mockData';
-import { formatFollowers, formatStat } from '../utils/formatters';
+import { formatStat } from '../utils/formatters';
 
 interface ContentCardProps {
   item: BiteContentItem;
@@ -36,12 +36,9 @@ const ContentCard: FC<ContentCardProps> = ({ item }) => {
       </div>
       <div className="content-info">
         <div className="creator">
-          <img
-            src={uploader.avatar}
-            alt=""
-            aria-hidden="true"
-            referrerPolicy="no-referrer"
-          />
+          <span className="creator-avatar" aria-hidden="true">
+            <img src={uploader.avatar} alt="" referrerPolicy="no-referrer" />
+          </span>
           <div>
             <span className="name">{uploader.name}</span>
             <span className="meta">

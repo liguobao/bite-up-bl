@@ -1,12 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
+import AppLayout from './components/AppLayout';
 import DetailPage from './pages/DetailPage';
+import HomePage from './pages/HomePage';
 import './styles/App.css';
 
 const App = () => (
   <Routes>
-    <Route path="/" element={<HomePage />} />
-    <Route path="/content/:id" element={<DetailPage />} />
+    <Route element={<AppLayout />}>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/content/:id" element={<DetailPage />} />
+    </Route>
   </Routes>
 );
 

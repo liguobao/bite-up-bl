@@ -1,22 +1,20 @@
 import rawData from '../../data.json';
 
-export type ExternalLinkPlatform = 'taobao' | 'jingdong' | 'xiaohongshu' | 'douyin' | 'weibo' | 'blog' | 'other';
+export type ExternalLinkPlatform =
+  | 'taobao'
+  | 'jingdong'
+  | 'xiaohongshu'
+  | 'douyin'
+  | 'weibo'
+  | 'blog'
+  | 'bilibili'
+  | 'other';
 
 export interface ExternalLink {
   title: string;
   url: string;
   type: 'purchase' | 'reference' | 'video' | 'profile';
   platform: ExternalLinkPlatform;
-}
-
-export interface Recommender {
-  id: string;
-  name: string;
-  avatar: string;
-  role: string;
-  credibility: number;
-  recommendReason: string;
-  recommendDate: string;
 }
 
 export interface Uploader {
@@ -34,7 +32,6 @@ export interface VideoInfo {
   thumbnail: string;
   duration: string;
   publishDate: string;
-  viewCount: number;
   likeCount: number;
   description: string;
 }
@@ -60,7 +57,6 @@ export interface BiteContentItem {
   videoInfo: VideoInfo;
   specialtyProduct: SpecialtyProduct;
   externalLinks: ExternalLink[];
-  recommender: Recommender;
   metadata: ContentMetadata;
 }
 
@@ -93,9 +89,5 @@ export const mockContent: BiteContentItem[] = typedData.map((item) => ({
   uploader: {
     ...item.uploader,
     avatar: item.uploader.avatar?.trim() || createAvatarPlaceholder(item.uploader.name),
-  },
-  recommender: {
-    ...item.recommender,
-    avatar: item.recommender.avatar?.trim() || createAvatarPlaceholder(item.recommender.name),
   },
 }));

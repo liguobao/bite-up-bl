@@ -15,7 +15,6 @@
       "thumbnail": "https://i2.hdslb.com/bfs/archive/d913a1fe82f8c8861741caba8d5e7d0a72739367.jpg",
       "duration": "07:32",
       "publishDate": "2025-08-19T06:20:00Z",
-      "viewCount": 0,
       "likeCount": 0,
       "description": "跟着文琪一起检查猕猴桃园，记录从开花到成熟的全过程，分享有机种植的小妙招。"
     },
@@ -38,15 +37,6 @@
         "platform": "taobao"
       }
     ],
-    "recommender": {
-      "id": "rec_010",
-      "name": "田园慢慢来",
-      "avatar": "",
-      "role": "乡村生活号",
-      "credibility": 4.6,
-      "recommendReason": "好吃，靠谱~",
-      "recommendDate": "2025-08-19T03:45:00Z"
-    },
     "metadata": {
       "createdAt": "2025-08-19T06:20:00Z",
       "updatedAt": "2025-08-19T09:10:00Z",
@@ -72,7 +62,6 @@
       "thumbnail": "https://i1.hdslb.com/bfs/archive/b733a70e0b800bb11c8e3c4b8dfffa20365ee0e1.jpg",
       "duration": "18:40",
       "publishDate": "2025-08-01 17:52:38",
-      "viewCount": 0,
       "likeCount": 0,
       "description": "节目从中医学习体验聊到法律职业伦理，呼吁专业的边界感与责任心。"
     },
@@ -95,15 +84,6 @@
         "platform": "taobao"
       }
     ],
-    "recommender": {
-      "id": "rec_011",
-      "name": "夜读研究所",
-      "avatar": "",
-      "role": "资讯自媒体",
-      "credibility": 4.5,
-      "recommendReason": "边听节目边嗑豆乳餐包，信息输入和能量补充两不误。",
-      "recommendDate": "2024-08-06T08:20:00Z"
-    },
     "metadata": {
       "createdAt": "2025-08-01 17:52:38",
       "updatedAt": "2025-08-06 09:00:00",
@@ -111,6 +91,59 @@
       "category": "社会资讯",
       "region": "全国",
       "featured": false
+    }
+  },
+  {
+    "id": "video_012",
+    "uploader": {
+      "id": "up_515741102",
+      "name": "玉林阿婆",
+      "avatar": "https://i2.hdslb.com/bfs/face/0608f1c161dbc249cd9da2e09a9ef6c868ccb2b6.jpg",
+      "bio": "两广乡村美食创作者｜分享田园生活与传统手艺",
+      "followerCount": 0,
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "芒果还能炒着吃？阿婆摘回200斤大芒果，教你5种下饭做法",
+      "videoUrl": "https://www.bilibili.com/video/BV1pmp2zjEdZ",
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/ccbf7a4250bfeaba321bddcd9293e06560c68b6f.jpg",
+      "duration": "28:08",
+      "publishDate": "2025-09-19T09:00:00Z",
+      "likeCount": 4874,
+      "description": "芒果还能炒着吃？阿婆摘回200斤大芒果，分享5种酸甜下饭的家常做法。"
+    },
+    "specialtyProduct": {
+      "title": "田园香芒家庭礼盒",
+      "description": "精选玉林现摘大芒果，附赠阿婆秘制腌芒果和炒芒果调味配方，复刻视频里的5种做法。",
+      "tags": ["芒果", "家常菜", "酸甜下饭", "玉林风味"]
+    },
+    "externalLinks": [
+      {
+        "title": "玉林阿婆 · B站主页",
+        "url": "https://space.bilibili.com/515741102",
+        "type": "profile",
+        "platform": "bilibili"
+      },
+      {
+        "title": "广西玉林鲜芒果礼盒",
+        "url": "https://item.taobao.com/item.htm?id=678901234567",
+        "type": "purchase",
+        "platform": "taobao"
+      },
+      {
+        "title": "视频原链接",
+        "url": "https://www.bilibili.com/video/BV1pmp2zjEdZ",
+        "type": "video",
+        "platform": "bilibili"
+      }
+    ],
+    "metadata": {
+      "createdAt": "2025-09-16T10:53:36Z",
+      "updatedAt": "2025-09-19T09:00:00Z",
+      "status": "published",
+      "category": "美食制作",
+      "region": "广西",
+      "featured": true
     }
   }
 ]

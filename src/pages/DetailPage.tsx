@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { mockContent } from '../data/mockData';
-import { formatDate, formatFollowers, formatStat } from '../utils/formatters';
+import { formatDate, formatStat } from '../utils/formatters';
 
 const DetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -26,9 +26,19 @@ const DetailPage = () => {
     );
   }
 
-  const { videoInfo, uploader, specialtyProduct, externalLinks, recommender, metadata } = content;
+  const { videoInfo, uploader, specialtyProduct, externalLinks, metadata } = content;
   const purchaseLinks = externalLinks.filter((link) => link.type === 'purchase');
-  const otherLinks = externalLinks.filter((link) => link.type !== 'purchase');
+  const otherLinks = externalLinks.filter(
+    (link) => link.type !== 'purchase' && link.type !== 'profile'
+  );
+  const uploaderProfileUrl =
+    externalLinks.find((link) => link.type === 'profile')?.url || videoInfo.videoUrl;
+  const createFilterLink = (params: Record<string, string>) => {
+    const search = new URLSearchParams(params);
+    const query = search.toString();
+    return query ? `/?${query}` : '/';
+  };
+  const primaryPurchaseLink = purchaseLinks[0];
 
   return (
     <div className="detail-page">
@@ -37,20 +47,24 @@ const DetailPage = () => {
           <span aria-hidden="true">←</span>
           <span className="label">返回</span>
         </Link>
-        <div className="detail-brand" aria-label="biteup 标识">
-          <span className="brand-tag">biteup</span>
-          <span className="brand-name">寻味阿婆</span>
-        </div>
       </header>
 
       <main className="detail-body">
         <section className="detail-visual">
           <div className="detail-media">
-            <img
-              src={videoInfo.thumbnail}
-              alt={videoInfo.title}
-              referrerPolicy="no-referrer"
-            />
+            <a
+              className="detail-media-link"
+              href={videoInfo.videoUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="打开原视频"
+            >
+              <img
+                src={videoInfo.thumbnail}
+                alt={videoInfo.title}
+                referrerPolicy="no-referrer"
+              />
+            </a>
             <div className="detail-media-overlay">
               <span className="duration">{videoInfo.duration}</span>
               {metadata.featured && <span className="badge">精选</span>}
@@ -77,16 +91,54 @@ const DetailPage = () => {
               </a>
             ))}
           </div>
+
+          <section className="detail-product" aria-label="推荐好物">
+            <span className="section-label">推荐好物</span>
+            <h2>
+              {primaryPurchaseLink ? (
+                <a
+                  className="detail-product__link"
+                  href={primaryPurchaseLink.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {specialtyProduct.title}
+                </a>
+              ) : (
+                specialtyProduct.title
+              )}
+            </h2>
+            <p>{specialtyProduct.description}</p>
+            <div className="detail-tags" aria-label="产品标签">
+              {specialtyProduct.tags.map((tag) => (
+                <Link key={tag} className="chip chip-link" to={createFilterLink({ q: tag })}>
+                  #{tag}
+                </Link>
+              ))}
+            </div>
+          </section>
         </section>
 
         <section className="detail-info">
           <div className="detail-title">
             <h1>{videoInfo.title}</h1>
             <div className="detail-tags">
-              <span className="chip">#{metadata.region}</span>
-              <span className="chip">#{metadata.category}</span>
+              <Link
+                className="chip chip-link"
+                to={createFilterLink({ region: metadata.region })}
+              >
+                #{metadata.region}
+              </Link>
+              <Link
+                className="chip chip-link"
+                to={createFilterLink({ category: metadata.category })}
+              >
+                #{metadata.category}
+              </Link>
               {specialtyProduct.tags.slice(0, 4).map((tag) => (
-                <span key={tag} className="chip">#{tag}</span>
+                <Link key={tag} className="chip chip-link" to={createFilterLink({ q: tag })}>
+                  #{tag}
+                </Link>
               ))}
             </div>
           </div>
@@ -102,52 +154,36 @@ const DetailPage = () => {
               <span className="label">发布</span>
               <span className="value">{formatDate(videoInfo.publishDate)}</span>
             </div>
-            <div className="stat">
-              <span className="label">推荐</span>
-              <span className="value">{formatDate(recommender.recommendDate)}</span>
-            </div>
           </div>
 
           <div className="detail-uploader">
-            <img
-              src={uploader.avatar}
-              alt={uploader.name}
-              referrerPolicy="no-referrer"
-            />
+            <a
+              className="uploader-link"
+              href={uploaderProfileUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`访问 ${uploader.name} 的主页`}
+            >
+              <img
+                src={uploader.avatar}
+                alt={uploader.name}
+                referrerPolicy="no-referrer"
+              />
+            </a>
             <div>
-              <span className="name">{uploader.name}</span>
+              <a
+                className="name"
+                href={uploaderProfileUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {uploader.name}
+              </a>
               <div className="sub">
                 {uploader.verified && <span className="verified">官方认证</span>}
               </div>
               <p className="bio">{uploader.bio}</p>
             </div>
-          </div>
-
-          <div className="detail-product">
-            <span className="section-label">推荐好物</span>
-            <h2>{specialtyProduct.title}</h2>
-            <p>{specialtyProduct.description}</p>
-            <div className="detail-tags" aria-label="产品标签">
-              {specialtyProduct.tags.map((tag) => (
-                <span key={tag} className="chip">#{tag}</span>
-              ))}
-            </div>
-          </div>
-
-          <div className="detail-recommend">
-            <div className="recommender">
-              <img
-                src={recommender.avatar}
-                alt={recommender.name}
-                referrerPolicy="no-referrer"
-              />
-              <div>
-                <span className="name">{recommender.name}</span>
-                <span className="role">{recommender.role}</span>
-                <span className="reason">“{recommender.recommendReason}”</span>
-              </div>
-            </div>
-            <span className="credibility">可信度 {recommender.credibility.toFixed(1)}</span>
           </div>
 
           {otherLinks.length > 0 && (
@@ -166,6 +202,7 @@ const DetailPage = () => {
             </div>
           )}
         </section>
+
       </main>
     </div>
   );

@@ -1,4 +1,5 @@
-import { ChangeEvent, useMemo, useState } from 'react';
+import { ChangeEvent, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
 import CategoryTabs from '../components/CategoryTabs';
@@ -6,22 +7,40 @@ import CardGrid from '../components/CardGrid';
 import type { FilterState } from '../components/FilterBar';
 import { mockContent } from '../data/mockData';
 
-const baseFilters: FilterState = {
-  region: 'all',
-  category: 'all',
-  featuredOnly: false,
-  sortBy: 'newest',
-};
-
 const HomePage = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [filters, setFilters] = useState<FilterState>(baseFilters);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchTerm = searchParams.get('q') ?? '';
 
   const filterOptions = useMemo(() => {
     const regions = Array.from(new Set(mockContent.map((item) => item.metadata.region)));
     const categories = Array.from(new Set(mockContent.map((item) => item.metadata.category)));
     return { regions, categories };
   }, []);
+
+  const regionParam = searchParams.get('region') ?? 'all';
+  const categoryParam = searchParams.get('category') ?? 'all';
+  const sortParam = searchParams.get('sort');
+  const sortByParam: FilterState['sortBy'] = sortParam === 'popular' ? 'popular' : 'newest';
+  const featuredOnly = searchParams.get('featured') === '1';
+
+  const normalizedRegion =
+    regionParam !== 'all' && !filterOptions.regions.includes(regionParam)
+      ? 'all'
+      : regionParam;
+  const normalizedCategory =
+    categoryParam !== 'all' && !filterOptions.categories.includes(categoryParam)
+      ? 'all'
+      : categoryParam;
+
+  const filters = useMemo<FilterState>(
+    () => ({
+      region: normalizedRegion,
+      category: normalizedCategory,
+      featuredOnly,
+      sortBy: sortByParam,
+    }),
+    [normalizedRegion, normalizedCategory, featuredOnly, sortByParam]
+  );
 
   const filteredItems = useMemo(() => {
     const lowerSearch = searchTerm.trim().toLowerCase();
@@ -38,7 +57,6 @@ const HomePage = () => {
           item.uploader.name,
           item.metadata.region,
           item.metadata.category,
-          item.recommender.name,
           ...item.specialtyProduct.tags,
         ];
 
@@ -65,7 +83,7 @@ const HomePage = () => {
 
     const sorted = candidates.slice().sort((a, b) => {
       if (filters.sortBy === 'popular') {
-        return b.videoInfo.viewCount - a.videoInfo.viewCount;
+        return b.videoInfo.likeCount - a.videoInfo.likeCount;
       }
 
       return (
@@ -76,29 +94,86 @@ const HomePage = () => {
     return sorted;
   }, [filters, searchTerm]);
 
+  const updateParams = (mutator: (params: URLSearchParams) => void) => {
+    const next = new URLSearchParams(searchParams.toString());
+    const before = searchParams.toString();
+    mutator(next);
+    const after = next.toString();
+    if (after === before) {
+      return;
+    }
+    setSearchParams(next, { replace: true });
+  };
+
+  const handleSearchChange = (value: string) => {
+    if (value === searchTerm) {
+      return;
+    }
+    updateParams((next) => {
+      if (value) {
+        next.set('q', value);
+      } else {
+        next.delete('q');
+      }
+    });
+  };
+
   const handleCategorySelect = (category: string) => {
-    setFilters((prev) => ({ ...prev, category }));
+    if (category === filters.category) {
+      return;
+    }
+    updateParams((next) => {
+      if (category === 'all') {
+        next.delete('category');
+      } else {
+        next.set('category', category);
+      }
+    });
   };
 
   const handleRegionChange = (event: ChangeEvent<HTMLSelectElement>) => {
     const { value } = event.target;
-    setFilters((prev) => ({ ...prev, region: value }));
+    if (value === filters.region) {
+      return;
+    }
+    updateParams((next) => {
+      if (value === 'all') {
+        next.delete('region');
+      } else {
+        next.set('region', value);
+      }
+    });
   };
 
   const handleSortChange = (event: ChangeEvent<HTMLSelectElement>) => {
     const { value } = event.target;
-    setFilters((prev) => ({ ...prev, sortBy: value as FilterState['sortBy'] }));
+    if (value === filters.sortBy) {
+      return;
+    }
+    updateParams((next) => {
+      if (value === 'popular') {
+        next.set('sort', 'popular');
+      } else {
+        next.delete('sort');
+      }
+    });
   };
 
   const toggleFeatured = () => {
-    setFilters((prev) => ({ ...prev, featuredOnly: !prev.featuredOnly }));
+    updateParams((next) => {
+      if (filters.featuredOnly) {
+        next.delete('featured');
+      } else {
+        next.set('featured', '1');
+      }
+    });
   };
 
   return (
     <div className="feed-page">
       <div className="feed-topbar">
         <Header itemCount={filteredItems.length} />
-        <SearchBar value={searchTerm} onChange={setSearchTerm} />
+        <SearchBar value={searchTerm} onChange={handleSearchChange} />
       </div>
 
       <CategoryTabs
