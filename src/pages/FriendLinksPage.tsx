@@ -1,13 +1,13 @@
 const friendLinks = [
   {
-    label: '寻味阿婆 · GitHub 仓库',
-    description: '项目源码、数据转换脚本与更新计划聚集地。',
-    url: 'https://github.com/liguobao/bite-up-bl',
-  },
-  {
     label: '人生删除指南',
-    description: '整理程序员生涯中必须掌握的“断舍离”指南，值得收藏。',
+    description: '什么都写一点，假装很厉害的样子。',
     url: 'https://zhuanlan.zhihu.com/codelover',
+  },
+    {
+    label: '因体科技',
+    description: '数据挖掘专业软件供应商，专注于数据分析与数据可视化。',
+    url: 'https://iinti.cn/zh-cn',
   },
   {
     label: 'BV-AV 号互转工具',
