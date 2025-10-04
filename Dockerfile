@@ -1,7 +1,7 @@
-# syntax=docker/dockerfile:1
+
 
 # Build stage: install dependencies and create production assets
-FROM node:20-alpine AS builder
+FROM node:22.16.0-slim AS builder
 WORKDIR /app
 
 # Install dependencies based on the lockfile for reproducible builds
@@ -13,7 +13,7 @@ COPY . .
 RUN npm run build
 
 # Production stage: serve the built assets with Nginx
-FROM nginx:alpine AS runner
+FROM nginx AS runner
 
 # Copy a simple SPA-ready nginx configuration
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf

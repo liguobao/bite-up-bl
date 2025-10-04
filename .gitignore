@@ -20,3 +20,7 @@ pnpm-debug.log*
 # Env
 .env
 .env.*
+
+
+# sh
+deployment.sh
