@@ -1,43 +1,26 @@
 # 寻味阿婆 · biteup
 
-一个基于 React + Vite 的轻量级站点原型，呈现类似小红书卡片流的美食内容。当前使用本地 Mock 数据模拟内容源，可直接在前端实现搜索、筛选与排序体验。
+围绕地方美食内容的素材整理项目，用于汇总 UP 主及其关联的特色产品信息。
 
-## 功能特性
+## 如何提交素材
 
-- 移动优先设计：响应式布局，适配移动端与桌面端。
-- 搜索联想：支持按标题、标签、地区、博主等维度模糊匹配。
-- 多维筛选：地区、分类、精选开关与热度/最新排序。
-- 小卡片流：深色系仿小红书卡片，点击进入详情页。
-- 详情导流：详情页支持跳转视频与购买/参考外链，呈现推荐者信息。
-- 本地 Mock：直接引入 `data.json` 作为数据源，方便后续替换为真实接口。
+请通过 GitHub Issue 提交新素材，推荐包含以下信息：
 
-## 快速开始
+- B 站视频链接（必填），示例：`https://www.bilibili.com/video/BV1kepfzCEZ4/`
+- 视频的原始 JSON（选填）。如已抓取，可将 JSON 粘贴在 Issue 中，或附上可下载的文件。原始 JSON 对应项目中的 `src/data/origin/*.json`。
+- 任何可帮助完善详情页的补充信息，例如特色产品标题、简介、外链等。
 
-```bash
-npm install
-npm run dev
-```
+收到 Issue 后，我们会使用脚本将原始 JSON 转换成详情数据，再补充商品与外链信息。
 
-默认使用 Vite 开发服务器，启动后访问终端输出的本地地址即可体验。
+## 数据结构约定
 
-## 目录结构
+- `src/data/origin/`：存放从 B 站接口获取的原始 JSON。
+- `src/data/details/`：详情页数据，包含 UP 主、特色产品、外链等字段。
+- `src/data/list.json`：首页列表使用的精简字段集合。
 
-```
-.
-├── data.json              # Mock 数据源
-├── src
-│   ├── App.tsx            # 路由入口
-│   ├── components         # UI 组件（头部、搜索、卡片等）
-│   ├── data               # 数据类型定义及导出
-│   ├── pages              # 首页卡片流与详情页
-│   ├── styles             # 全局与页面样式
-│   ├── utils              # 工具方法（格式化等）
-│   └── main.tsx           # React 挂载入口
-└── vite.config.ts         # Vite 配置
-```
+如需自行转换，可运行 `node scripts/convert-origin.js`（支持 `--dry-run` 与 `--force` 参数）。
 
-## 后续对接
+## 相关链接
 
-- 将 `mockContent` 替换为 API 请求（例如 `fetch` + SWR/React Query`）即可接入真实数据。
-- 可补充路由结构（React Router）以支持详情页、更多频道等。
-- 配合服务端后可引入登录、点赞、收藏等互动能力。
+- [B 站视频信息接口](https://api.bilibili.com/x/web-interface/view?aid=115258014372544)
+- [BV-AV号互转](https://www.bilitools.top/t/2/)
