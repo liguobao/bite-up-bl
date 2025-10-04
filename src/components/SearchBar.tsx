@@ -3,9 +3,11 @@ import { ChangeEvent, FC } from 'react';
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
+  placeholder?: string;
+  ariaLabel?: string;
 }
 
-const SearchBar: FC<SearchBarProps> = ({ value, onChange }) => {
+const SearchBar: FC<SearchBarProps> = ({ value, onChange, placeholder, ariaLabel }) => {
   const handleInput = (event: ChangeEvent<HTMLInputElement>) => {
     onChange(event.target.value);
   };
@@ -14,10 +16,10 @@ const SearchBar: FC<SearchBarProps> = ({ value, onChange }) => {
     <div className="search-bar">
       <input
         type="search"
-        placeholder="搜索菜品、农产品、城市、标签或创作者"
+        placeholder={placeholder ?? '搜索菜品、农产品、城市、标签或创作者'}
         value={value}
         onChange={handleInput}
-        aria-label="搜索内容"
+        aria-label={ariaLabel ?? '搜索内容'}
       />
       <span className="icon" aria-hidden="true">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

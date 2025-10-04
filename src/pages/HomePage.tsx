@@ -6,6 +6,21 @@ import CategoryTabs from '../components/CategoryTabs';
 import CardGrid from '../components/CardGrid';
 import type { FilterState } from '../components/FilterBar';
 import { biteListItems } from '../data/mockData';
+import type { BiteContentItem } from '../data/mockData';
+
+const detailModules = import.meta.glob('../data/details/*.json', {
+  import: 'default',
+  eager: true,
+}) as Record<string, BiteContentItem>;
+
+const externalLinkTitlesIndex = new Map<string, string[]>(
+  Object.values(detailModules).map((detail) => [
+    detail.bvid,
+    (detail.externalLinks ?? [])
+      .map((link) => link.title?.trim())
+      .filter((title): title is string => Boolean(title)),
+  ]),
+);
 
 const HomePage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -49,6 +64,7 @@ const HomePage = () => {
 
     const candidates = biteListItems.filter((item) => {
       if (lowerSearch) {
+        const externalLinkTitles = externalLinkTitlesIndex.get(item.bvid) ?? [];
         const haystack = [
           item.videoInfo.title,
           item.videoInfo.description,
@@ -58,6 +74,7 @@ const HomePage = () => {
           item.metadata.region,
           item.metadata.category,
           ...item.specialtyProduct.tags,
+          ...externalLinkTitles,
         ];
 
         const hasMatch = haystack.some((value) => matchesSearch(value));

@@ -857,7 +857,8 @@
 }
 
 .detail-comments {
-  margin-top: 2.4rem;
+  width: 100%;
+  margin-top: 0;
   padding: 1.6rem 1.8rem;
   border-radius: var(--radius-large);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1122,7 +1123,6 @@
   }
 
   .detail-comments {
-    margin-top: 1.8rem;
     padding: 1.4rem 1.3rem;
   }
 

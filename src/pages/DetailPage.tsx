@@ -254,11 +254,12 @@ const DetailPage = () => {
           )}
         </section>
 
-        <section className="detail-comments" aria-label="评论互动">
-          <h2>评论互动</h2>
-          <GithubComments issueTerm={contentBvid || bvid || videoInfo.title} />
-        </section>
       </main>
+
+      <section className="detail-comments" aria-label="评论互动">
+        <h2>评论互动</h2>
+        <GithubComments issueTerm={contentBvid || bvid || videoInfo.title} />
+      </section>
     </div>
   );
 };
