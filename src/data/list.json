@@ -144,5 +144,40 @@
       "region": "全国",
       "featured": false
     }
+  },
+  {
+    "bvid": "BV1bNJXzbEy8",
+    "uploader": {
+      "id": "up_302162398",
+      "name": "安德不翻车",
+      "avatar": "https://i1.hdslb.com/bfs/face/0d2ecd7ce89e9bf32a23c608ab31174ecd7ff1c5.jpg",
+      "bio": "",
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "石屋上石瓦咯~",
+      "videoUrl": "https://www.bilibili.com/video/BV1bNJXzbEy8",
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/d907148a4b6610a72d4a945091b7def1f03d9c60.jpg",
+      "duration": "10:36",
+      "publishDate": "2025-09-24T10:00:00.000Z",
+      "likeCount": 2154,
+      "description": ""
+    },
+    "specialtyProduct": {
+      "title": "[TODO] 关联特色产品标题",
+      "description": "[TODO] 关联特色产品描述",
+      "tags": [
+        "农村生活",
+        "三农"
+      ]
+    },
+    "metadata": {
+      "createdAt": "2025-09-24T07:16:33.000Z",
+      "updatedAt": "2025-09-24T10:00:00.000Z",
+      "status": "published",
+      "category": "农村生活",
+      "region": "全国",
+      "featured": false
+    }
   }
 ]

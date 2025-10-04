@@ -110,6 +110,12 @@ const buildDetailItem = (origin) => {
         platform: 'bilibili',
       },
       {
+        title: '特色商品链接',
+        url: `https://www.bilibili.com/video/${bvid}`,
+        type: 'purchase',
+        platform: 'bilibili',
+      },
+      {
         title: '视频原链接',
         url: `https://www.bilibili.com/video/${bvid}`,
         type: 'video',

@@ -1,0 +1,50 @@
+{
+  "bvid": "BV1bNJXzbEy8",
+  "uploader": {
+    "id": "up_302162398",
+    "name": "安德不翻车",
+    "avatar": "https://i1.hdslb.com/bfs/face/0d2ecd7ce89e9bf32a23c608ab31174ecd7ff1c5.jpg",
+    "bio": "",
+    "followerCount": 0,
+    "verified": false
+  },
+  "videoInfo": {
+    "title": "石屋上石瓦咯~",
+    "videoUrl": "https://www.bilibili.com/video/BV1bNJXzbEy8",
+    "thumbnail": "https://i2.hdslb.com/bfs/archive/d907148a4b6610a72d4a945091b7def1f03d9c60.jpg",
+    "duration": "10:36",
+    "publishDate": "2025-09-24T10:00:00.000Z",
+    "likeCount": 2154,
+    "description": "农村生活记录"
+  },
+  "specialtyProduct": {
+    "title": "四川平武2025年深山土蜂蜜纯天然0添加",
+    "description": "多人评价 【无奇怪的味道】",
+    "tags": [
+      "农村生活",
+      "三农"
+    ]
+  },
+  "externalLinks": [
+    {
+      "title": "安德不翻车 · B站主页",
+      "url": "https://space.bilibili.com/302162398",
+      "type": "profile",
+      "platform": "bilibili"
+    },
+    {
+      "title": "四川平武2025年深山土蜂蜜纯天然0添加",
+      "url": "https://item.taobao.com/item.htm?ak=27696150&ali_trackid=2%3Amm_97326488_2897900342_114864600353%3A1759573671133_553989307_0&bxsign=tbk-YrHKjKJVZUPzL7CTEV15aTUPxgFppjptX68wI9aY-xyHdWIJAZaX5Ci4elgaKud58_w5vYaTUpnD_FQIRIhafd-F0hPxowyS7abt88ZKw7o_ZzFONcCCmopRlmIruilqbp8FB_Se1L4nPTVM6w_0pXXCiF2Vn_Ma0k4iy41G8YgL9sGDwFo9yzajDnXtv02&id=730499430821&union_lens=lensId%3ATAPI%401758708307%4021676fd9_13bc_1997b2f14b1_2260%4001%3Brecoveryid%3A553989307_0%401759573671139",
+      "type": "purchase",
+      "platform": "taobao"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-09-24T07:16:33.000Z",
+    "updatedAt": "2025-09-24T10:00:00.000Z",
+    "status": "published",
+    "category": "农村生活",
+    "region": "全国",
+    "featured": false
+  }
+}
