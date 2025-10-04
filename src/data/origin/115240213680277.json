@@ -1,0 +1,161 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV1kepfzCEZ4",
+        "aid": 115240213680277,
+        "videos": 1,
+        "tid": 222,
+        "tid_v2": 2164,
+        "tname": "小宠异宠",
+        "tname_v2": "打野采摘",
+        "copyright": 1,
+        "pic": "http://i0.hdslb.com/bfs/archive/8198dfb21a312e0ada50dd84c026d26d7973d02a.jpg",
+        "title": "螃蟹：你觉得我能撑过今晚吗！",
+        "pubdate": 1758426481,
+        "ctime": 1758426481,
+        "desc": "-",
+        "desc_v2": [
+            {
+                "raw_text": "-",
+                "type": 1,
+                "biz_id": 0
+            }
+        ],
+        "state": 0,
+        "duration": 723,
+        "mission_id": 4048371,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 0,
+            "no_reprint": 1,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 22089099,
+            "name": "手艺贾",
+            "face": "https://i0.hdslb.com/bfs/face/6192f0ae708a9c9aa6838d699b5a9134e1ada6c8.jpg"
+        },
+        "stat": {
+            "aid": 115240213680277,
+            "view": 390427,
+            "danmaku": 1451,
+            "reply": 1005,
+            "favorite": 1030,
+            "coin": 994,
+            "share": 435,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 22445,
+            "dislike": 0,
+            "evaluation": "",
+            "vt": 0
+        },
+        "argue_info": {
+            "argue_msg": "",
+            "argue_type": 0,
+            "argue_link": ""
+        },
+        "dynamic": "",
+        "cid": 25866016688,
+        "dimension": {
+            "width": 1080,
+            "height": 1920,
+            "rotate": 0
+        },
+        "premiere": null,
+        "teenage_mode": 1,
+        "is_chargeable_season": false,
+        "is_story": true,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "is_upower_preview": false,
+        "enable_vt": 0,
+        "vt_display": "",
+        "is_upower_exclusive_with_qa": false,
+        "no_cache": false,
+        "pages": [
+            {
+                "cid": 25866016688,
+                "page": 1,
+                "from": "vupload",
+                "part": "螃蟹：你觉得我能撑过今晚吗！",
+                "duration": 723,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1080,
+                    "height": 1920,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/_000027qcn2qel9t3x268c5g3ejvhwmb_firsti.jpg",
+                "ctime": 1758426481
+            }
+        ],
+        "subtitle": {
+            "allow_submit": false,
+            "list": [
+                {
+                    "id": 1847813194526332672,
+                    "lan": "ai-zh",
+                    "lan_doc": "中文",
+                    "is_lock": false,
+                    "subtitle_url": "",
+                    "type": 1,
+                    "id_str": "1847813194526332672",
+                    "ai_type": 0,
+                    "ai_status": 2,
+                    "subtitle_height": null,
+                    "author": {
+                        "mid": 0,
+                        "name": "",
+                        "sex": "",
+                        "face": "",
+                        "sign": "",
+                        "rank": 0,
+                        "birthday": 0,
+                        "is_fake_account": 0,
+                        "is_deleted": 0,
+                        "in_reg_audit": 0,
+                        "is_senior_member": 0,
+                        "name_render": null
+                    }
+                }
+            ]
+        },
+        "is_season_display": false,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {
+            "honor": [
+                {
+                    "aid": 115240213680277,
+                    "type": 7,
+                    "desc": "热门收录",
+                    "weekly_recommend_num": 0
+                }
+            ]
+        },
+        "like_icon": "",
+        "need_jump_bv": false,
+        "disable_show_up_info": false,
+        "is_story_play": 1,
+        "is_view_self": false
+    }
+}

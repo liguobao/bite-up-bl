@@ -14,7 +14,7 @@ const SearchBar: FC<SearchBarProps> = ({ value, onChange }) => {
     <div className="search-bar">
       <input
         type="search"
-        placeholder="搜索菜品、城市、标签或创作者"
+        placeholder="搜索菜品、农产品、城市、标签或创作者"
         value={value}
         onChange={handleInput}
         aria-label="搜索内容"

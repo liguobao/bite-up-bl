@@ -1,0 +1,50 @@
+{
+  "bvid": "BV1kepfzCEZ4",
+  "uploader": {
+    "id": "up_22089099",
+    "name": "手艺贾",
+    "avatar": "https://i0.hdslb.com/bfs/face/6192f0ae708a9c9aa6838d699b5a9134e1ada6c8.jpg",
+    "bio": "",
+    "followerCount": 0,
+    "verified": false
+  },
+  "videoInfo": {
+    "title": "螃蟹：你觉得我能撑过今晚吗！",
+    "videoUrl": "https://www.bilibili.com/video/BV1kepfzCEZ4",
+    "thumbnail": "https://i0.hdslb.com/bfs/archive/8198dfb21a312e0ada50dd84c026d26d7973d02a.jpg",
+    "duration": "12:03",
+    "publishDate": "2025-09-21T03:48:01.000Z",
+    "likeCount": 22445,
+    "description": "-"
+  },
+  "specialtyProduct": {
+    "title": "盘锦湿地河蟹鲜活全母稻田蟹顺丰空运包邮中秋河蟹礼盒",
+    "description": "好吃的河蟹，鲜活现捕，肉质饱满，蟹黄丰富，精选全母蟹，适合蒸煮，送礼自用两相宜。",
+    "tags": [
+      "打野采摘",
+      "小宠异宠"
+    ]
+  },
+  "externalLinks": [
+    {
+      "title": "手艺贾 · B站主页",
+      "url": "https://space.bilibili.com/22089099",
+      "type": "profile",
+      "platform": "bilibili"
+    },
+    {
+      "title": "盘锦湿地河蟹鲜活全母稻田蟹顺丰空运包邮中秋河蟹礼盒",
+      "url": "https://mall.bilibili.com/neul-next/detailuniversal/detail.html?isMerchant=1&page=detailuniversal_detail&saleType=0&itemsId=13186303&loadingShow=1&noTitleBar=1&track_id=__BGMT__&from=&from_spmid=__SPMID__&msource=cps_comments_22089099_cont-1-115240213680277",
+      "type": "purchase",
+      "platform": "taobao"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-09-21T03:48:01.000Z",
+    "updatedAt": "2025-09-21T03:48:01.000Z",
+    "status": "published",
+    "category": "打野采摘",
+    "region": "全国",
+    "featured": false
+  }
+}
