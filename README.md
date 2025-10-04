@@ -20,6 +20,15 @@
 
 如需自行转换，可运行 `node scripts/convert-origin.js`（支持 `--dry-run` 与 `--force` 参数）。
 
+## Docker 构建与运行
+
+项目提供 Dockerfile，可打包生产构建并通过 Nginx 提供静态页面服务：
+
+- 构建镜像：`docker build -t biteup .`
+- 运行容器：`docker run --rm -p 8080:80 biteup`
+
+镜像构建阶段使用 `npm ci` 安装依赖并执行 `npm run build`，运行阶段以 Nginx 提供静态资源，并对前端路由做了单页应用回退处理。
+
 ## 相关链接
 
 - [B 站视频信息接口](https://api.bilibili.com/x/web-interface/view?aid=115258014372544)
