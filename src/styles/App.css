@@ -856,6 +856,31 @@
   color: var(--text-secondary);
 }
 
+.detail-comments {
+  margin-top: 2.4rem;
+  padding: 1.6rem 1.8rem;
+  border-radius: var(--radius-large);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(18, 18, 23, 0.78);
+  box-shadow: var(--shadow-soft);
+}
+
+.detail-comments h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.github-comments {
+  margin-top: 1.2rem;
+}
+
+.github-comments iframe,
+.github-comments .utterances {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
 .detail-empty {
   flex: 1;
   display: flex;
@@ -1094,6 +1119,11 @@
 
   .detail-info {
     padding: 1.3rem 1.4rem;
+  }
+
+  .detail-comments {
+    margin-top: 1.8rem;
+    padding: 1.4rem 1.3rem;
   }
 
   .about-page {

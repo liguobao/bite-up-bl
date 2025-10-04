@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import GithubComments from '../components/GithubComments';
 import type { BiteContentItem } from '../data/mockData';
 import { getDetailByBvid } from '../data/mockData';
 import { formatDate, formatStat } from '../utils/formatters';
@@ -76,7 +77,7 @@ const DetailPage = () => {
     );
   }
 
-  const { videoInfo, uploader, specialtyProduct, externalLinks, metadata } = content;
+  const { videoInfo, uploader, specialtyProduct, externalLinks, metadata, bvid: contentBvid } = content;
   const purchaseLinks = externalLinks.filter((link) => link.type === 'purchase');
   const otherLinks = externalLinks.filter(
     (link) => link.type !== 'purchase' && link.type !== 'profile'
@@ -253,6 +254,10 @@ const DetailPage = () => {
           )}
         </section>
 
+        <section className="detail-comments" aria-label="评论互动">
+          <h2>评论互动</h2>
+          <GithubComments issueTerm={contentBvid || bvid || videoInfo.title} />
+        </section>
       </main>
     </div>
   );
