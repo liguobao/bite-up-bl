@@ -13,6 +13,16 @@ const SiteHeader = () => (
     </div>
     <nav className="site-header__nav" aria-label="全站导航">
       <Link to="/">首页</Link>
+      <Link to="/about">关于</Link>
+      <Link to="/links">友情链接</Link>
+      <a
+        href="https://github.com/liguobao/bite-up-bl"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="打开 GitHub 仓库（新标签页）"
+      >
+        GitHub
+      </a>
     </nav>
   </header>
 );
