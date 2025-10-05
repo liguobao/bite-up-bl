@@ -1,11 +1,14 @@
-import { ChangeEvent, useMemo } from 'react';
+import { ChangeEvent, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import CategoryTabs from '../components/CategoryTabs';
 import CardGrid from '../components/CardGrid';
+import Pagination from '../components/Pagination';
 import type { FilterState } from '../components/FilterBar';
 import { biteListItems } from '../data/mockData';
 import type { BiteContentItem } from '../data/mockData';
+
+const PAGE_SIZE = 9;
 
 const detailModules = import.meta.glob('../data/details/*.json', {
   import: 'default',
@@ -110,10 +113,16 @@ const HomePage = () => {
     return sorted;
   }, [filters, searchTerm]);
 
-  const updateParams = (mutator: (params: URLSearchParams) => void) => {
+  const updateParams = (
+    mutator: (params: URLSearchParams) => void,
+    options: { preservePage?: boolean } = {},
+  ) => {
     const next = new URLSearchParams(searchParams.toString());
-    const before = searchParams.toString();
+    const before = next.toString();
     mutator(next);
+    if (!options.preservePage) {
+      next.delete('page');
+    }
     const after = next.toString();
     if (after === before) {
       return;
@@ -185,6 +194,58 @@ const HomePage = () => {
     });
   };
 
+  const pageParamValue = searchParams.get('page');
+  const parsedPage = pageParamValue ? Number.parseInt(pageParamValue, 10) : 1;
+  const normalizedPageFromParams = Number.isFinite(parsedPage) && parsedPage > 0 ? parsedPage : 1;
+
+  const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
+  const currentPage = Math.min(normalizedPageFromParams, totalPages);
+
+  const paramsString = searchParams.toString();
+
+  useEffect(() => {
+    const normalizedParam = currentPage === 1 ? null : String(currentPage);
+    if (normalizedParam === pageParamValue) {
+      return;
+    }
+
+    const next = new URLSearchParams(paramsString);
+    if (normalizedParam) {
+      next.set('page', normalizedParam);
+    } else {
+      next.delete('page');
+    }
+
+    const after = next.toString();
+    if (after === paramsString) {
+      return;
+    }
+
+    setSearchParams(next, { replace: true });
+  }, [currentPage, pageParamValue, paramsString, setSearchParams]);
+
+  const paginatedItems = useMemo(() => {
+    if (filteredItems.length === 0) {
+      return filteredItems;
+    }
+    const startIndex = (currentPage - 1) * PAGE_SIZE;
+    return filteredItems.slice(startIndex, startIndex + PAGE_SIZE);
+  }, [filteredItems, currentPage]);
+
+  const handlePageChange = (page: number) => {
+    const clamped = Math.min(Math.max(page, 1), totalPages);
+    if (clamped === currentPage) {
+      return;
+    }
+    updateParams((next) => {
+      if (clamped === 1) {
+        next.delete('page');
+      } else {
+        next.set('page', String(clamped));
+      }
+    }, { preservePage: true });
+  };
+
   return (
     <div className="feed-page">
       <div className="feed-topbar">
@@ -225,7 +286,8 @@ const HomePage = () => {
         </label>
       </div>
 
-      <CardGrid items={filteredItems} />
+      <CardGrid items={paginatedItems} />
+      <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
     </div>
   );
 };

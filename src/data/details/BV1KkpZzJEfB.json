@@ -1,0 +1,56 @@
+{
+  "bvid": "BV1KkpZzJEfB",
+  "uploader": {
+    "id": "up_3493282587871429",
+    "name": "稳重一点啊",
+    "avatar": "https://i1.hdslb.com/bfs/face/79cd635ebb685efecb17d9036ca79ff086f1741b.jpg",
+    "bio": "",
+    "followerCount": 0,
+    "verified": false
+  },
+  "videoInfo": {
+    "title": "《不爱吃肉是你的谎言》",
+    "videoUrl": "https://www.bilibili.com/video/BV1KkpZzJEfB",
+    "thumbnail": "https://i0.hdslb.com/bfs/archive/07372477d27d77aa97ac29c44b8b383b4a3b5b9d.jpg",
+    "duration": "14:26",
+    "publishDate": "2025-09-21T03:00:00.000Z",
+    "likeCount": 2489,
+    "description": ""
+  },
+  "specialtyProduct": {
+    "title": "食贫道 原汁酱牛肉220g/盒山东老字号开袋即食小袋装休闲零食",
+    "description": "开袋即食小袋装",
+    "tags": [
+      "美食记录",
+      "美食侦探"
+    ]
+  },
+  "externalLinks": [
+    {
+      "title": "稳重一点啊 · B站主页",
+      "url": "https://space.bilibili.com/3493282587871429",
+      "type": "profile",
+      "platform": "bilibili"
+    },
+    {
+      "title": "食贫道 原汁酱牛肉220g/盒山东老字号开袋即食小袋装休闲零食",
+      "url": "https://mall.bilibili.com/neul-next/detailuniversal/detail.html?isMerchant=1&page=detailuniversal_detail&saleType=0&itemsId=13198307&loadingShow=1&noTitleBar=1&track_id=__BGMT__&from=&from_spmid=__SPMID__&msource=cps_comments_3493282587871429_cont-1-115238972163380",
+      "type": "purchase",
+      "platform": "bilibili"
+    },
+    {
+      "title": "视频原链接",
+      "url": "https://www.bilibili.com/video/BV1KkpZzJEfB",
+      "type": "video",
+      "platform": "bilibili"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-09-20T22:27:53.000Z",
+    "updatedAt": "2025-09-21T03:00:00.000Z",
+    "status": "published",
+    "category": "美食记录",
+    "region": "全国",
+    "featured": false
+  }
+}
