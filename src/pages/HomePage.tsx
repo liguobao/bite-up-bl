@@ -1,6 +1,5 @@
 import { ChangeEvent, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
 import CategoryTabs from '../components/CategoryTabs';
 import CardGrid from '../components/CardGrid';
@@ -189,7 +188,6 @@ const HomePage = () => {
   return (
     <div className="feed-page">
       <div className="feed-topbar">
-        <Header itemCount={filteredItems.length} />
         <SearchBar value={searchTerm} onChange={handleSearchChange} />
       </div>
 
