@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import type { BiteListItem } from '../data/mockData';
-import { formatStat } from '../utils/formatters';
+import { formatStat, formatDate, formatDateShort } from '../utils/formatters';
 
 interface ContentCardProps {
   item: BiteListItem;
@@ -30,7 +30,14 @@ const ContentCard: FC<ContentCardProps> = ({ item }) => {
             {videoInfo.title}
           </h2>
           <div className="cover-stats" aria-label="互动数据">
-            <span>❤ {formatStat(videoInfo.likeCount)}</span>
+            <span className="cover-stats__item">❤ {formatStat(videoInfo.likeCount)}</span>
+            <span
+              className="cover-stats__item cover-stats__item--date"
+              aria-label={`发布于 ${formatDate(videoInfo.publishDate)}`}
+              title={formatDate(videoInfo.publishDate)}
+            >
+              {formatDateShort(videoInfo.publishDate)}
+            </span>
           </div>
         </div>
       </div>

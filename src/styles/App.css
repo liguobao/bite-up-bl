@@ -610,10 +610,22 @@
 }
 
 .cover-stats {
-  display: inline-flex;
+  display: flex;
+  width: 100%;
   gap: 0.5rem;
   font-size: 0.78rem;
   color: rgba(255, 255, 255, 0.75);
+}
+
+.cover-stats__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+}
+
+.cover-stats__item--date {
+  margin-left: auto;
 }
 
 .content-info {
