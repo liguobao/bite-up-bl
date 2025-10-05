@@ -1,0 +1,134 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV12LaGzkEyf",
+        "aid": 115123091939128,
+        "videos": 1,
+        "tid": 124,
+        "tid_v2": 2082,
+        "tname": "社科·法律·心理",
+        "tname_v2": "社会资讯",
+        "copyright": 1,
+        "pic": "http://i2.hdslb.com/bfs/archive/e21e0256b563876af93e7d5b034cbea69e56a6c7.jpg",
+        "title": "【睡前消息946】“只有峨眉山”亏到关门，王潮歌岳阳接单",
+        "pubdate": 1756639689,
+        "ctime": 1756639689,
+        "desc": "简介：分析王潮歌的《只有》系列大型演出",
+        "desc_v2": [
+            {
+                "raw_text": "简介：分析王潮歌的《只有》系列大型演出",
+                "type": 1,
+                "biz_id": 0
+            }
+        ],
+        "state": 0,
+        "duration": 1237,
+        "mission_id": 4044558,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 1,
+            "no_reprint": 1,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 316568752,
+            "name": "马督工",
+            "face": "https://i1.hdslb.com/bfs/face/1c56737dfc0deffffc31c78e0cefb0c3ecf7e000.jpg"
+        },
+        "stat": {
+            "aid": 115123091939128,
+            "view": 527994,
+            "danmaku": 2316,
+            "reply": 2261,
+            "favorite": 2129,
+            "coin": 5572,
+            "share": 1083,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 16875,
+            "dislike": 0,
+            "evaluation": "",
+            "vt": 0
+        },
+        "argue_info": {
+            "argue_msg": "",
+            "argue_type": 0,
+            "argue_link": ""
+        },
+        "dynamic": "从《印象-刘三姐》开始，全国旅游城市都想办自己的大型实景表演，赚额外的门票。后来的《又见》系列，以及最新一轮《只有》系列，背后的主要策划者，都是张艺谋的朋友、巩俐的闺蜜——王潮歌。",
+        "cid": 32072797139,
+        "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+        },
+        "premiere": null,
+        "teenage_mode": 0,
+        "is_chargeable_season": false,
+        "is_story": false,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "is_upower_preview": false,
+        "enable_vt": 0,
+        "vt_display": "",
+        "is_upower_exclusive_with_qa": false,
+        "no_cache": false,
+        "pages": [
+            {
+                "cid": 32072797139,
+                "page": 1,
+                "from": "vupload",
+                "part": "【睡前消息946】“只有峨眉山”亏到关门，王潮歌岳阳接单",
+                "duration": 1237,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n250831sa39zehnghlltykx7bz9x4stp_firsti.jpg",
+                "ctime": 1756639689
+            }
+        ],
+        "subtitle": {
+            "allow_submit": false,
+            "list": []
+        },
+        "is_season_display": false,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {
+            "honor": [
+                {
+                    "aid": 115123091939128,
+                    "type": 7,
+                    "desc": "热门收录",
+                    "weekly_recommend_num": 0
+                }
+            ]
+        },
+        "like_icon": "",
+        "need_jump_bv": false,
+        "disable_show_up_info": false,
+        "is_story_play": 1,
+        "is_view_self": false
+    }
+}
