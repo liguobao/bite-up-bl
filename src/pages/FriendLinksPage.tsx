@@ -1,18 +1,20 @@
+import { Link } from 'react-router-dom';
+
 const friendLinks = [
   {
     label: '人生删除指南',
     description: '什么都写一点，假装很厉害的样子。',
     url: 'https://zhuanlan.zhihu.com/codelover',
   },
-    {
+  {
     label: '因体科技',
     description: '数据挖掘专业软件供应商，专注于数据分析与数据可视化。',
     url: 'https://iinti.cn/zh-cn',
   },
   {
-    label: 'BV-AV 号互转工具',
-    description: '快速转换 B 站 BV/AV 号，辅助定位原视频链接。',
-    url: 'https://www.bilitools.top/t/2/',
+    label: 'BV/AV 互转小工具',
+    description: '站内一键转换，支持链接识别、复制跳转。',
+    url: '/bv-to-av',
   },
 ];
 
@@ -36,20 +38,35 @@ const FriendLinksPage = () => (
 
     <section className="friend-links-section" aria-label="推荐链接">
       <ul className="friend-links-list">
-        {friendLinks.map((link) => (
-          <li key={link.url} className="friend-links-item">
-            <a
-              className="friend-link-card"
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+        {friendLinks.map((link) => {
+          const isExternal = link.url.startsWith('http');
+          const content = (
+            <>
               <span className="friend-link__title">{link.label}</span>
               <span className="friend-link__description">{link.description}</span>
               <span className="friend-link__url">{link.url}</span>
-            </a>
-          </li>
-        ))}
+            </>
+          );
+
+          return (
+            <li key={link.url} className="friend-links-item">
+              {isExternal ? (
+                <a
+                  className="friend-link-card"
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {content}
+                </a>
+              ) : (
+                <Link className="friend-link-card" to={link.url}>
+                  {content}
+                </Link>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </section>
   </div>
