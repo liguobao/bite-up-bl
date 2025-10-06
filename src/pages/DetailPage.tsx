@@ -5,6 +5,8 @@ import type { BiteContentItem } from '../data/mockData';
 import { getDetailByBvid } from '../data/mockData';
 import { formatDate, formatStat } from '../utils/formatters';
 
+const DEFAULT_TITLE = '寻味阿婆 | BiteUp';
+
 const DetailPage = () => {
   const { bvid } = useParams<{ bvid: string }>();
   const [content, setContent] = useState<BiteContentItem | null>(null);
@@ -43,6 +45,17 @@ const DetailPage = () => {
       cancelled = true;
     };
   }, [bvid]);
+
+  const detailTitle = content?.videoInfo.title;
+
+  useEffect(() => {
+    const previousTitle = document.title;
+    document.title = detailTitle ? `寻味阿婆 + ${detailTitle}` : DEFAULT_TITLE;
+
+    return () => {
+      document.title = previousTitle;
+    };
+  }, [detailTitle]);
 
   if (loading) {
     return (
