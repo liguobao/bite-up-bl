@@ -1,0 +1,178 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV1X9azzhEYm",
+        "aid": 115139902708433,
+        "videos": 1,
+        "tid": 251,
+        "tid_v2": 2162,
+        "tname": "三农",
+        "tname_v2": "农村种植",
+        "copyright": 1,
+        "pic": "http://i2.hdslb.com/bfs/archive/3b327808d4195708d1290e003b910cc4cf4d8b53.jpg",
+        "title": "凌晨4点，偷袭猕猴桃！",
+        "pubdate": 1756896451,
+        "ctime": 1756896451,
+        "desc": "-",
+        "desc_v2": [
+            {
+                "raw_text": "-",
+                "type": 1,
+                "biz_id": 0
+            }
+        ],
+        "state": 0,
+        "duration": 253,
+        "mission_id": 4046573,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 0,
+            "no_reprint": 1,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 17650967,
+            "name": "不会种地的文祺",
+            "face": "https://i2.hdslb.com/bfs/face/d20a2d8b46c6b70ed4491b2dee1c2387c7b4e7d1.jpg"
+        },
+        "stat": {
+            "aid": 115139902708433,
+            "view": 14124,
+            "danmaku": 37,
+            "reply": 142,
+            "favorite": 47,
+            "coin": 194,
+            "share": 14,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 1660,
+            "dislike": 0,
+            "evaluation": "",
+            "vt": 0
+        },
+        "argue_info": {
+            "argue_msg": "",
+            "argue_type": 0,
+            "argue_link": ""
+        },
+        "dynamic": "",
+        "cid": 32134334359,
+        "dimension": {
+            "width": 3840,
+            "height": 2160,
+            "rotate": 0
+        },
+        "premiere": null,
+        "teenage_mode": 0,
+        "is_chargeable_season": false,
+        "is_story": false,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "is_upower_preview": false,
+        "enable_vt": 0,
+        "vt_display": "",
+        "is_upower_exclusive_with_qa": false,
+        "no_cache": false,
+        "pages": [
+            {
+                "cid": 32134334359,
+                "page": 1,
+                "from": "vupload",
+                "part": "谢谢你们陪我走过六个月的时光",
+                "duration": 253,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 3840,
+                    "height": 2160,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n250903sa2lbifi7dre44v34gtu3oj7v_firsti.jpg",
+                "ctime": 1756896451
+            }
+        ],
+        "subtitle": {
+            "allow_submit": false,
+            "list": [
+                {
+                    "id": 1835500613715300352,
+                    "lan": "ai-en",
+                    "lan_doc": "English",
+                    "is_lock": false,
+                    "subtitle_url": "",
+                    "type": 1,
+                    "id_str": "1835500613715300352",
+                    "ai_type": 1,
+                    "ai_status": 2,
+                    "subtitle_height": null,
+                    "author": {
+                        "mid": 0,
+                        "name": "",
+                        "sex": "",
+                        "face": "",
+                        "sign": "",
+                        "rank": 0,
+                        "birthday": 0,
+                        "is_fake_account": 0,
+                        "is_deleted": 0,
+                        "in_reg_audit": 0,
+                        "is_senior_member": 0,
+                        "name_render": null
+                    }
+                },
+                {
+                    "id": 1834995920857608960,
+                    "lan": "ai-zh",
+                    "lan_doc": "中文",
+                    "is_lock": false,
+                    "subtitle_url": "",
+                    "type": 1,
+                    "id_str": "1834995920857608960",
+                    "ai_type": 0,
+                    "ai_status": 2,
+                    "subtitle_height": null,
+                    "author": {
+                        "mid": 0,
+                        "name": "",
+                        "sex": "",
+                        "face": "",
+                        "sign": "",
+                        "rank": 0,
+                        "birthday": 0,
+                        "is_fake_account": 0,
+                        "is_deleted": 0,
+                        "in_reg_audit": 0,
+                        "is_senior_member": 0,
+                        "name_render": null
+                    }
+                }
+            ]
+        },
+        "is_season_display": false,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {},
+        "like_icon": "",
+        "need_jump_bv": false,
+        "disable_show_up_info": false,
+        "is_story_play": 1,
+        "is_view_self": false
+    }
+}

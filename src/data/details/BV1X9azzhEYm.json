@@ -1,0 +1,56 @@
+{
+  "bvid": "BV1X9azzhEYm",
+  "uploader": {
+    "id": "up_17650967",
+    "name": "不会种地的文祺",
+    "avatar": "https://i2.hdslb.com/bfs/face/d20a2d8b46c6b70ed4491b2dee1c2387c7b4e7d1.jpg",
+    "bio": "",
+    "followerCount": 0,
+    "verified": false
+  },
+  "videoInfo": {
+    "title": "凌晨4点，偷袭猕猴桃！",
+    "videoUrl": "https://www.bilibili.com/video/BV1X9azzhEYm",
+    "thumbnail": "https://i2.hdslb.com/bfs/archive/3b327808d4195708d1290e003b910cc4cf4d8b53.jpg",
+    "duration": "04:13",
+    "publishDate": "2025-09-03T10:47:31.000Z",
+    "likeCount": 1660,
+    "description": "-"
+  },
+  "specialtyProduct": {
+    "title": "文祺的红心猕猴桃成熟啦",
+    "description": "多人评价\"很好吃\"",
+    "tags": [
+      "农村种植",
+      "红心猕猴"
+    ]
+  },
+  "externalLinks": [
+    {
+      "title": "不会种地的文祺 · B站主页",
+      "url": "https://space.bilibili.com/17650967",
+      "type": "profile",
+      "platform": "bilibili"
+    },
+    {
+      "title": "文祺的红心猕猴桃成熟啦~",
+      "url": "https://item.taobao.com/item.htm?ak=27696150&ali_trackid=2%3Amm_4855983670_2989800060_115056800101%3A1759728243836_189927578_0&bxsign=tbkgxunRYY-KIogUPngsdODbfsl3fNsQj5v6HyGfNu-pWnrm7GZLInqiZ71A9kLBl9cgVeiNsOOyOrZQqIv-zMCv4ATvc0kNVwMreivQpS5RHUGUqGXFyapTUhm2VHj66EW89X3vr0e2n1j27ZN138dtTG8qslD1LvyAq7uC_UBRSBravkup7Z3QExt6MLrNYBR&id=972890495159&union_lens=lensId%3ATAPI%401758108571%402133d6a7_0e35_199576fd59c_7e95%4001%3Brecoveryid%3A189927578_0%401759728243842",
+      "type": "purchase",
+      "platform": "bilibili"
+    },
+    {
+      "title": "视频原链接",
+      "url": "https://www.bilibili.com/video/BV1X9azzhEYm",
+      "type": "video",
+      "platform": "bilibili"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-09-03T10:47:31.000Z",
+    "updatedAt": "2025-09-03T10:47:31.000Z",
+    "status": "published",
+    "category": "农村种植",
+    "region": "全国",
+    "featured": false
+  }
+}
