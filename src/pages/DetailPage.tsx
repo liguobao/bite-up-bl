@@ -50,7 +50,7 @@ const DetailPage = () => {
 
   useEffect(() => {
     const previousTitle = document.title;
-    document.title = detailTitle ? `寻味阿婆 + ${detailTitle}` : DEFAULT_TITLE;
+    document.title = detailTitle ? `寻味阿婆 | ${detailTitle}` : DEFAULT_TITLE;
 
     return () => {
       document.title = previousTitle;
