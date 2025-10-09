@@ -313,5 +313,40 @@
       "region": "全国",
       "featured": false
     }
+  },
+  {
+    "bvid": "BV1JgtXzeE1D",
+    "uploader": {
+      "id": "up_101229184",
+      "name": "滇西小哥",
+      "avatar": "https://i1.hdslb.com/bfs/face/a235389baf30c5819d1dba02a8a1d581598e66c7.jpg",
+      "bio": "",
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "普洱甜笋——甜脆如梨，嫩得能掐出水的鲜劲儿【滇西小哥】",
+      "videoUrl": "https://www.bilibili.com/video/BV1JgtXzeE1D",
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/1116151c7683e14ce2c81f2a254f3f0b3781db48.jpg",
+      "duration": "15:31",
+      "publishDate": "2025-08-13T10:00:00.000Z",
+      "likeCount": 27201,
+      "description": "上天对云南有多偏爱？连笋都是甜的……普洱甜笋是云南普洱地区的特色时令山珍，以脆、嫩、甜著称，被誉为“山野鲜味之王”。清甜无渣，脆嫩爽口……是这个季节云南必吃的生鲜之一～"
+    },
+    "specialtyProduct": {
+      "title": "云南普洱甜笋新鲜脆蔬菜顺丰（带壳发 2斤小笋/3斤大小混装）",
+      "description": "云南普洱甜笋，脆嫩可口，带壳发货，保证新鲜。 ",
+      "tags": [
+        "云南",
+        "普洱甜笋"
+      ]
+    },
+    "metadata": {
+      "createdAt": "2025-08-12T02:59:56.000Z",
+      "updatedAt": "2025-08-13T10:00:00.000Z",
+      "status": "published",
+      "category": "美食记录",
+      "region": "云南",
+      "featured": false
+    }
   }
 ]
