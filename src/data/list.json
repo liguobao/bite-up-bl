@@ -348,5 +348,39 @@
       "region": "云南",
       "featured": false
     }
+  },
+  {
+    "bvid": "BV17Ps8zbEyC",
+    "uploader": {
+      "id": "up_1924687949",
+      "name": "无用商店",
+      "avatar": "https://i2.hdslb.com/bfs/face/5334287a5dd23de59327e12c3a730894f6ed17ce.jpg",
+      "bio": "",
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "发光不带电 燕子看得见",
+      "videoUrl": "https://www.bilibili.com/video/BV17Ps8zbEyC",
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/35895fd2fdcf8193a47faa70465576ea31f36e35.jpg",
+      "duration": "02:26",
+      "publishDate": "2025-10-22T09:30:00.000Z",
+      "likeCount": 4011,
+      "description": ""
+    },
+    "specialtyProduct": {
+      "title": "HBN发光水",
+      "description": "世界上真的有光,有光的地方就有HBN发光水！这里下单超优惠，暗沉黄气全不见。双十一期间，备注【商店】购买发光水，单瓶额外加赠10ml，双瓶额外加赠30ml，购买店铺内其他商品也会有惊喜加赠哦~",
+      "tags": [
+        "护肤"
+      ]
+    },
+    "metadata": {
+      "createdAt": "2025-10-22T08:32:47.000Z",
+      "updatedAt": "2025-10-22T09:30:00.000Z",
+      "status": "published",
+      "category": "护肤",
+      "region": "全国",
+      "featured": false
+    }
   }
 ]

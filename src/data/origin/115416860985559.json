@@ -1,0 +1,145 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV17Ps8zbEyC",
+        "aid": 115416860985559,
+        "videos": 1,
+        "tid": 21,
+        "tid_v2": 2112,
+        "tname": "日常",
+        "tname_v2": "护肤",
+        "copyright": 1,
+        "pic": "http://i2.hdslb.com/bfs/archive/35895fd2fdcf8193a47faa70465576ea31f36e35.jpg",
+        "title": "发光不带电 燕子看得见",
+        "pubdate": 1761125400,
+        "ctime": 1761121967,
+        "desc": "",
+        "desc_v2": null,
+        "state": 0,
+        "duration": 146,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 1,
+            "no_reprint": 1,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 1924687949,
+            "name": "无用商店",
+            "face": "https://i2.hdslb.com/bfs/face/5334287a5dd23de59327e12c3a730894f6ed17ce.jpg"
+        },
+        "stat": {
+            "aid": 115416860985559,
+            "view": 41418,
+            "danmaku": 215,
+            "reply": 195,
+            "favorite": 383,
+            "coin": 753,
+            "share": 82,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 4011,
+            "dislike": 0,
+            "evaluation": "",
+            "vt": 0
+        },
+        "argue_info": {
+            "argue_msg": "",
+            "argue_type": 0,
+            "argue_link": ""
+        },
+        "dynamic": "",
+        "cid": 33295631491,
+        "dimension": {
+            "width": 3840,
+            "height": 2160,
+            "rotate": 0
+        },
+        "premiere": null,
+        "teenage_mode": 1,
+        "is_chargeable_season": false,
+        "is_story": false,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "is_upower_preview": false,
+        "enable_vt": 0,
+        "vt_display": "",
+        "is_upower_exclusive_with_qa": false,
+        "no_cache": false,
+        "pages": [
+            {
+                "cid": 33295631491,
+                "page": 1,
+                "from": "vupload",
+                "part": "发光不带电 燕子看得见",
+                "duration": 146,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 3840,
+                    "height": 2160,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/_000006212ck4pqd1f290emuhsbyui1b_firsti.jpg",
+                "ctime": 1761121967
+            }
+        ],
+        "subtitle": {
+            "allow_submit": false,
+            "list": [
+                {
+                    "id": 1871077322694650368,
+                    "lan": "ai-zh",
+                    "lan_doc": "中文",
+                    "is_lock": false,
+                    "subtitle_url": "",
+                    "type": 1,
+                    "id_str": "1871077322694650368",
+                    "ai_type": 0,
+                    "ai_status": 2,
+                    "subtitle_height": null,
+                    "author": {
+                        "mid": 0,
+                        "name": "",
+                        "sex": "",
+                        "face": "",
+                        "sign": "",
+                        "rank": 0,
+                        "birthday": 0,
+                        "is_fake_account": 0,
+                        "is_deleted": 0,
+                        "in_reg_audit": 0,
+                        "is_senior_member": 0,
+                        "name_render": null
+                    }
+                }
+            ]
+        },
+        "is_season_display": false,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {},
+        "like_icon": "",
+        "need_jump_bv": false,
+        "disable_show_up_info": false,
+        "is_story_play": 1,
+        "is_view_self": false
+    }
+}
