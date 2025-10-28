@@ -21,17 +21,15 @@
       "title": "自然熟猕猴桃礼盒",
       "description": "山地昼夜温差大的猕猴桃，现摘现发，酸甜多汁。",
       "tags": [
-        "猕猴桃",
-        "自然熟",
-        "田园采摘",
-        "礼盒装"
+        "三农",
+        "猕猴桃"
       ]
     },
     "metadata": {
       "createdAt": "2025-08-19T06:20:00Z",
       "updatedAt": "2025-08-19T09:10:00Z",
       "status": "published",
-      "category": "新农人",
+      "category": "三农",
       "region": "四川",
       "featured": true
     }
@@ -58,17 +56,15 @@
       "title": "田园香芒家庭礼盒",
       "description": "精选玉林现摘大芒果，附赠阿婆秘制腌芒果和炒芒果调味配方，复刻视频里的5种做法。",
       "tags": [
-        "芒果",
-        "家常菜",
-        "酸甜下饭",
-        "玉林风味"
+        "美食",
+        "芒果"
       ]
     },
     "metadata": {
       "createdAt": "2025-09-16T10:53:36Z",
       "updatedAt": "2025-09-19T09:00:00Z",
       "status": "published",
-      "category": "美食制作",
+      "category": "美食",
       "region": "广西",
       "featured": true
     }
@@ -95,15 +91,15 @@
       "title": "盘锦湿地河蟹鲜活全母稻田蟹顺丰空运包邮中秋河蟹礼盒",
       "description": "",
       "tags": [
-        "河蟹",
-        "小宠异宠"
+        "三农",
+        "河蟹"
       ]
     },
     "metadata": {
       "createdAt": "2025-09-21T03:48:01.000Z",
       "updatedAt": "2025-09-21T03:48:01.000Z",
       "status": "published",
-      "category": "打野采摘",
+      "category": "三农",
       "region": "全国",
       "featured": false
     }
@@ -130,15 +126,15 @@
       "title": "四川平武2025年深山土蜂蜜纯天然0添加",
       "description": "来自四川平武的纯天然土蜂蜜，0添加，保留了蜂蜜的原始风味。",
       "tags": [
-        "深山土蜂蜜",
-        "三农"
+        "三农",
+        "蜂蜜"
       ]
     },
     "metadata": {
       "createdAt": "2025-09-24T07:16:33.000Z",
       "updatedAt": "2025-09-24T10:00:00.000Z",
       "status": "published",
-      "category": "农村生活",
+      "category": "三农",
       "region": "全国",
       "featured": false
     }
@@ -165,14 +161,15 @@
       "title": "食贫道 原汁酱牛肉220g/盒山东老字号开袋即食小袋装休闲零食",
       "description": "开袋即食小袋装",
       "tags": [
-        "酱牛肉"
+        "美食",
+        "牛肉"
       ]
     },
     "metadata": {
       "createdAt": "2025-09-20T22:37:30.000Z",
       "updatedAt": "2025-09-21T05:00:00.000Z",
       "status": "published",
-      "category": "美食综合",
+      "category": "美食",
       "region": "全国",
       "featured": false
     }
@@ -199,14 +196,15 @@
       "title": "食贫道 原汁酱牛肉220g/盒山东老字号开袋即食小袋装休闲零食",
       "description": "开袋即食小袋装",
       "tags": [
-        "原汁酱牛肉"
+        "美食",
+        "牛肉"
       ]
     },
     "metadata": {
       "createdAt": "2025-09-20T22:27:53.000Z",
       "updatedAt": "2025-09-21T03:00:00.000Z",
       "status": "published",
-      "category": "美食记录",
+      "category": "美食",
       "region": "全国",
       "featured": false
     }
@@ -233,6 +231,7 @@
       "title": "马督工夏款T恤",
       "description": "马督工夏款T恤，采用优质面料，舒适透气，适合夏季穿着。",
       "tags": [
+        "资讯",
         "夏款T恤"
       ]
     },
@@ -240,7 +239,7 @@
       "createdAt": "2025-08-31T11:28:09.000Z",
       "updatedAt": "2025-08-31T11:28:09.000Z",
       "status": "published",
-      "category": "社会资讯",
+      "category": "资讯",
       "region": "全国",
       "featured": false
     }
@@ -267,6 +266,7 @@
       "title": "马督工家乡特产杏仁露",
       "description": "【督工推荐】承德特产53颗大粒杏仁研磨一罐杏仁露 240ml2 马督工家乡承德特产杏仁露，现在从原产地发货顺丰包邮啦，一罐里面有53颗大杏仁，浓郁丝滑，入口就忘不了！现在下单，夏天放冰箱冰冰凉凉解暑佳品~",
       "tags": [
+        "资讯",
         "杏仁露"
       ]
     },
@@ -274,7 +274,7 @@
       "createdAt": "2025-07-08T12:16:32.000Z",
       "updatedAt": "2025-07-08T12:16:31.000Z",
       "status": "published",
-      "category": "社会资讯",
+      "category": "资讯",
       "region": "全国",
       "featured": false
     }
@@ -301,15 +301,15 @@
       "title": "文祺的红心猕猴桃成熟啦",
       "description": "多人评价\"很好吃\"",
       "tags": [
-        "农村种植",
-        "红心猕猴桃"
+        "三农",
+        "猕猴桃"
       ]
     },
     "metadata": {
       "createdAt": "2025-09-03T10:47:31.000Z",
       "updatedAt": "2025-09-03T10:47:31.000Z",
       "status": "published",
-      "category": "农村种植",
+      "category": "三农",
       "region": "全国",
       "featured": false
     }
@@ -336,15 +336,15 @@
       "title": "云南普洱甜笋新鲜脆蔬菜顺丰（带壳发 2斤小笋/3斤大小混装）",
       "description": "云南普洱甜笋，脆嫩可口，带壳发货，保证新鲜。 ",
       "tags": [
-        "云南",
-        "普洱甜笋"
+        "美食",
+        "甜笋"
       ]
     },
     "metadata": {
       "createdAt": "2025-08-12T02:59:56.000Z",
       "updatedAt": "2025-08-13T10:00:00.000Z",
       "status": "published",
-      "category": "美食记录",
+      "category": "美食",
       "region": "云南",
       "featured": false
     }
@@ -371,14 +371,15 @@
       "title": "HBN发光水",
       "description": "世界上真的有光,有光的地方就有HBN发光水！这里下单超优惠，暗沉黄气全不见。双十一期间，备注【商店】购买发光水，单瓶额外加赠10ml，双瓶额外加赠30ml，购买店铺内其他商品也会有惊喜加赠哦~",
       "tags": [
-        "护肤"
+        "生活消费",
+        "发光水"
       ]
     },
     "metadata": {
       "createdAt": "2025-10-22T08:32:47.000Z",
       "updatedAt": "2025-10-22T09:30:00.000Z",
       "status": "published",
-      "category": "护肤",
+      "category": "生活消费",
       "region": "全国",
       "featured": false
     }
@@ -405,16 +406,15 @@
       "title": "马督工粉丝专属优惠妙界创新全自动智能杀菌足浴桶】",
       "description": "点击蓝色链接即可跳转~~~ 推荐一款安全系数高且舒服的足浴桶，看了很多类似的，实在是乱花渐欲迷人眼 这款用起来确实不错，送家人朋友也不错。现在领券购买就是底价~~我的粉丝赠送运费险，不满意可以免费退换！！~~",
       "tags": [
-        "海外资讯",
-        "新闻",
-        "生活用品"
+        "资讯",
+        "足浴桶"
       ]
     },
     "metadata": {
       "createdAt": "2025-10-26T11:44:27.000Z",
       "updatedAt": "2025-10-26T11:50:29.000Z",
       "status": "published",
-      "category": "海外资讯",
+      "category": "资讯",
       "region": "全国",
       "featured": false
     }
