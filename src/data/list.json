@@ -382,5 +382,41 @@
       "region": "全国",
       "featured": false
     }
+  },
+  {
+    "bvid": "BV16Hs6zoEgj",
+    "uploader": {
+      "id": "up_316568752",
+      "name": "马督工",
+      "avatar": "https://i1.hdslb.com/bfs/face/1c56737dfc0deffffc31c78e0cefb0c3ecf7e000.jpg",
+      "bio": "",
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "【睡前消息970】中欧班列 南线不能替代北线",
+      "videoUrl": "https://www.bilibili.com/video/BV16Hs6zoEgj",
+      "thumbnail": "https://i2.hdslb.com/bfs/archive/280a0551998e6a41d2d9edddfe688b7a30a7b905.jpg",
+      "duration": "12:27",
+      "publishDate": "2025-10-26T11:50:29.000Z",
+      "likeCount": 12716,
+      "description": "分析中欧班列南线"
+    },
+    "specialtyProduct": {
+      "title": "马督工粉丝专属优惠妙界创新全自动智能杀菌足浴桶】",
+      "description": "点击蓝色链接即可跳转~~~ 推荐一款安全系数高且舒服的足浴桶，看了很多类似的，实在是乱花渐欲迷人眼 这款用起来确实不错，送家人朋友也不错。现在领券购买就是底价~~我的粉丝赠送运费险，不满意可以免费退换！！~~",
+      "tags": [
+        "海外资讯",
+        "新闻",
+        "生活用品"
+      ]
+    },
+    "metadata": {
+      "createdAt": "2025-10-26T11:44:27.000Z",
+      "updatedAt": "2025-10-26T11:50:29.000Z",
+      "status": "published",
+      "category": "海外资讯",
+      "region": "全国",
+      "featured": false
+    }
   }
 ]
