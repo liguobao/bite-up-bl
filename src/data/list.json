@@ -418,5 +418,75 @@
       "region": "全国",
       "featured": false
     }
+  },
+  {
+    "bvid": "BV1DQCuBDEeR",
+    "uploader": {
+      "id": "up_316568752",
+      "name": "马督工",
+      "avatar": "https://i1.hdslb.com/bfs/face/1c56737dfc0deffffc31c78e0cefb0c3ecf7e000.jpg",
+      "bio": "",
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "【睡前消息978】爪哇岛高铁亏损 高铁出海能去哪？",
+      "videoUrl": "https://www.bilibili.com/video/BV1DQCuBDEeR",
+      "thumbnail": "https://i0.hdslb.com/bfs/archive/0e7fc2103c8f4b2d3a64af05ab30540b1b6bbdca.jpg",
+      "duration": "19:27",
+      "publishDate": "2025-11-14T11:35:16.000Z",
+      "likeCount": 17660,
+      "description": "分析印尼雅万高铁亏损原因。"
+    },
+    "specialtyProduct": {
+      "title": "[TODO] 关联特色产品标题",
+      "description": "[TODO] 关联特色产品描述",
+      "tags": [
+        "海外资讯",
+        "社科·法律·心理"
+      ]
+    },
+    "metadata": {
+      "createdAt": "2025-11-14T11:35:16.000Z",
+      "updatedAt": "2025-11-14T11:35:16.000Z",
+      "status": "published",
+      "category": "海外资讯",
+      "region": "全国",
+      "featured": false
+    }
+  },
+  {
+    "bvid": "BV1QWUjBDEav",
+    "uploader": {
+      "id": "up_316568752",
+      "name": "马督工",
+      "avatar": "https://i1.hdslb.com/bfs/face/1c56737dfc0deffffc31c78e0cefb0c3ecf7e000.jpg",
+      "bio": "",
+      "verified": false
+    },
+    "videoInfo": {
+      "title": "【睡前消息981】纽约社会主义市长 对付封建地主",
+      "videoUrl": "https://www.bilibili.com/video/BV1QWUjBDEav",
+      "thumbnail": "https://i1.hdslb.com/bfs/archive/7689d493c6d771dd1103e83fb863000f79accd93.jpg",
+      "duration": "19:06",
+      "publishDate": "2025-11-21T10:45:13.000Z",
+      "likeCount": 13882,
+      "description": "分析纽约市长选举结果。"
+    },
+    "specialtyProduct": {
+      "title": "[TODO] 关联特色产品标题",
+      "description": "[TODO] 关联特色产品描述",
+      "tags": [
+        "海外资讯",
+        "社科·法律·心理"
+      ]
+    },
+    "metadata": {
+      "createdAt": "2025-11-21T10:45:13.000Z",
+      "updatedAt": "2025-11-21T10:45:13.000Z",
+      "status": "published",
+      "category": "海外资讯",
+      "region": "全国",
+      "featured": false
+    }
   }
 ]

@@ -1,0 +1,134 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV1DQCuBDEeR",
+        "aid": 115547824002336,
+        "videos": 1,
+        "tid": 124,
+        "tid_v2": 2081,
+        "tname": "社科·法律·心理",
+        "tname_v2": "海外资讯",
+        "copyright": 1,
+        "pic": "http://i0.hdslb.com/bfs/archive/0e7fc2103c8f4b2d3a64af05ab30540b1b6bbdca.jpg",
+        "title": "【睡前消息978】爪哇岛高铁亏损 高铁出海能去哪？",
+        "pubdate": 1763120116,
+        "ctime": 1763120116,
+        "desc": "分析印尼雅万高铁亏损原因。",
+        "desc_v2": [
+            {
+                "raw_text": "分析印尼雅万高铁亏损原因。",
+                "type": 1,
+                "biz_id": 0
+            }
+        ],
+        "state": 0,
+        "duration": 1167,
+        "mission_id": 4042947,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 1,
+            "no_reprint": 1,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 316568752,
+            "name": "马督工",
+            "face": "https://i1.hdslb.com/bfs/face/1c56737dfc0deffffc31c78e0cefb0c3ecf7e000.jpg"
+        },
+        "stat": {
+            "aid": 115547824002336,
+            "view": 387649,
+            "danmaku": 1961,
+            "reply": 3886,
+            "favorite": 2575,
+            "coin": 6841,
+            "share": 572,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 17660,
+            "dislike": 0,
+            "evaluation": "",
+            "vt": 0
+        },
+        "argue_info": {
+            "argue_msg": "",
+            "argue_type": 0,
+            "argue_link": ""
+        },
+        "dynamic": "印尼爪哇岛是一个东西长1000公里，南北宽不到200公里的长方形。面积13万平方公里，比安徽省还小。人口1.5亿，比俄罗斯还多，如果算年轻人数量，可能是俄罗斯的两倍。这是全世界最适合修高铁的地方。",
+        "cid": 34062729585,
+        "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+        },
+        "premiere": null,
+        "teenage_mode": 1,
+        "is_chargeable_season": false,
+        "is_story": false,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "is_upower_preview": false,
+        "enable_vt": 0,
+        "vt_display": "",
+        "is_upower_exclusive_with_qa": false,
+        "no_cache": false,
+        "pages": [
+            {
+                "cid": 34062729585,
+                "page": 1,
+                "from": "vupload",
+                "part": "978改带广告",
+                "duration": 1167,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/_000007qyd6d7704ma2e6xrblxphkwfb_firsti.jpg",
+                "ctime": 1763361222
+            }
+        ],
+        "subtitle": {
+            "allow_submit": false,
+            "list": []
+        },
+        "is_season_display": false,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {
+            "honor": [
+                {
+                    "aid": 115547824002336,
+                    "type": 7,
+                    "desc": "热门收录",
+                    "weekly_recommend_num": 0
+                }
+            ]
+        },
+        "like_icon": "",
+        "need_jump_bv": false,
+        "disable_show_up_info": false,
+        "is_story_play": 1,
+        "is_view_self": false
+    }
+}

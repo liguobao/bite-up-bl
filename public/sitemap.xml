@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://biteup.house2048.com/</loc>
-    <lastmod>2025-10-05T17:18:41.212Z</lastmod>
+    <lastmod>2025-11-23T15:52:02.673Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://biteup.house2048.com/about</loc>
-    <lastmod>2025-10-05T17:18:41.212Z</lastmod>
+    <lastmod>2025-11-23T15:52:02.673Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://biteup.house2048.com/links</loc>
-    <lastmod>2025-10-05T17:18:41.212Z</lastmod>
+    <lastmod>2025-11-23T15:52:02.673Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -63,6 +63,42 @@
   <url>
     <loc>https://biteup.house2048.com/content/BV1ksGpzmEo9</loc>
     <lastmod>2025-07-08T12:16:31.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://biteup.house2048.com/content/BV1X9azzhEYm</loc>
+    <lastmod>2025-09-03T10:47:31.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://biteup.house2048.com/content/BV1JgtXzeE1D</loc>
+    <lastmod>2025-08-13T10:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://biteup.house2048.com/content/BV17Ps8zbEyC</loc>
+    <lastmod>2025-10-22T09:30:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://biteup.house2048.com/content/BV16Hs6zoEgj</loc>
+    <lastmod>2025-10-26T11:50:29.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://biteup.house2048.com/content/BV1DQCuBDEeR</loc>
+    <lastmod>2025-11-14T11:35:16.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://biteup.house2048.com/content/BV1QWUjBDEav</loc>
+    <lastmod>2025-11-21T10:45:13.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
