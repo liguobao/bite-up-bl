@@ -1,0 +1,56 @@
+{
+  "bvid": "BV1Kw1iBoEAw",
+  "uploader": {
+    "id": "up_1924687949",
+    "name": "无用商店",
+    "avatar": "https://i2.hdslb.com/bfs/face/5334287a5dd23de59327e12c3a730894f6ed17ce.jpg",
+    "bio": "",
+    "followerCount": 0,
+    "verified": false
+  },
+  "videoInfo": {
+    "title": "我们从办公室抢了一些狸叶新品…",
+    "videoUrl": "https://www.bilibili.com/video/BV1Kw1iBoEAw",
+    "thumbnail": "https://i0.hdslb.com/bfs/archive/4250d96d6cb2db278e5726b8612829077228ce87.jpg",
+    "duration": "09:39",
+    "publishDate": "2025-11-03T11:05:52.000Z",
+    "likeCount": 10859,
+    "description": "感兴趣的家人们可以在🍑无用商店或会员购下单哟～\n（预售截止至11月8日晚 24:00）"
+  },
+  "specialtyProduct": {
+    "title": "狸叶2026年摸鱼日历阿鸭玩偶礼盒无用商店",
+    "description": "狸叶2026年摸鱼日历阿鸭玩偶礼盒，包含2026年日历和可爱阿鸭玩偶，限时预售~",
+    "tags": [
+      "潮玩玩具",
+      "日常"
+    ]
+  },
+  "externalLinks": [
+    {
+      "title": "无用商店 · B站主页",
+      "url": "https://space.bilibili.com/1924687949",
+      "type": "profile",
+      "platform": "bilibili"
+    },
+    {
+      "title": "狸叶2026年摸鱼日历阿鸭玩偶礼盒无用商店",
+      "url": "https://mall.bilibili.com/neul-next/detailuniversal/detail.html?isMerchant=1&page=detailuniversal_detail&saleType=0&itemsId=40004360&loadingShow=1&noTitleBar=1&track_id=__BGMT__&from=&from_spmid=__SPMID__&msource=cps_comments_1924687949_cont-1-115485429467771",
+      "type": "purchase",
+      "platform": "bilibili"
+    },
+    {
+      "title": "视频原链接",
+      "url": "https://www.bilibili.com/video/BV1Kw1iBoEAw",
+      "type": "video",
+      "platform": "bilibili"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-11-03T11:05:52.000Z",
+    "updatedAt": "2025-11-03T11:05:52.000Z",
+    "status": "published",
+    "category": "潮玩玩具",
+    "region": "全国",
+    "featured": false
+  }
+}

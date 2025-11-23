@@ -1,0 +1,216 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV1Kw1iBoEAw",
+        "aid": 115485429467771,
+        "videos": 1,
+        "tid": 21,
+        "tid_v2": 2201,
+        "tname": "日常",
+        "tname_v2": "潮玩玩具",
+        "copyright": 1,
+        "pic": "http://i0.hdslb.com/bfs/archive/4250d96d6cb2db278e5726b8612829077228ce87.jpg",
+        "title": "我们从办公室抢了一些狸叶新品…",
+        "pubdate": 1762167952,
+        "ctime": 1762167952,
+        "desc": "感兴趣的家人们可以在🍑无用商店或会员购下单哟～\n（预售截止至11月8日晚 24:00）",
+        "desc_v2": [
+            {
+                "raw_text": "感兴趣的家人们可以在🍑无用商店或会员购下单哟～\n（预售截止至11月8日晚 24:00）",
+                "type": 1,
+                "biz_id": 0
+            }
+        ],
+        "state": 0,
+        "duration": 579,
+        "mission_id": 4050697,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 1,
+            "no_reprint": 1,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 1924687949,
+            "name": "无用商店",
+            "face": "https://i2.hdslb.com/bfs/face/5334287a5dd23de59327e12c3a730894f6ed17ce.jpg"
+        },
+        "stat": {
+            "aid": 115485429467771,
+            "view": 181722,
+            "danmaku": 585,
+            "reply": 372,
+            "favorite": 1174,
+            "coin": 1911,
+            "share": 550,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 10859,
+            "dislike": 0,
+            "evaluation": "",
+            "vt": 0
+        },
+        "argue_info": {
+            "argue_msg": "",
+            "argue_type": 0,
+            "argue_link": ""
+        },
+        "dynamic": "",
+        "cid": 33659225490,
+        "dimension": {
+            "width": 3840,
+            "height": 2160,
+            "rotate": 0
+        },
+        "premiere": null,
+        "teenage_mode": 1,
+        "is_chargeable_season": false,
+        "is_story": false,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "is_upower_preview": false,
+        "enable_vt": 0,
+        "vt_display": "",
+        "is_upower_exclusive_with_qa": false,
+        "no_cache": false,
+        "pages": [
+            {
+                "cid": 33659225490,
+                "page": 1,
+                "from": "vupload",
+                "part": "我们从办公室抢了一些狸叶新品…",
+                "duration": 579,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 3840,
+                    "height": 2160,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/_00002b46ebyiufhry22tf6p9yemu4db_firsti.jpg",
+                "ctime": 1762167952
+            }
+        ],
+        "subtitle": {
+            "allow_submit": false,
+            "list": [
+                {
+                    "id": 1879747457982680832,
+                    "lan": "ai-en",
+                    "lan_doc": "English",
+                    "is_lock": false,
+                    "subtitle_url": "",
+                    "type": 1,
+                    "id_str": "1879747457982680832",
+                    "ai_type": 1,
+                    "ai_status": 2,
+                    "subtitle_height": null,
+                    "author": {
+                        "mid": 0,
+                        "name": "",
+                        "sex": "",
+                        "face": "",
+                        "sign": "",
+                        "rank": 0,
+                        "birthday": 0,
+                        "is_fake_account": 0,
+                        "is_deleted": 0,
+                        "in_reg_audit": 0,
+                        "is_senior_member": 0,
+                        "name_render": null,
+                        "handle": ""
+                    }
+                },
+                {
+                    "id": 1879747456372491264,
+                    "lan": "ai-ja",
+                    "lan_doc": "日本語",
+                    "is_lock": false,
+                    "subtitle_url": "",
+                    "type": 1,
+                    "id_str": "1879747456372491264",
+                    "ai_type": 1,
+                    "ai_status": 2,
+                    "subtitle_height": null,
+                    "author": {
+                        "mid": 0,
+                        "name": "",
+                        "sex": "",
+                        "face": "",
+                        "sign": "",
+                        "rank": 0,
+                        "birthday": 0,
+                        "is_fake_account": 0,
+                        "is_deleted": 0,
+                        "in_reg_audit": 0,
+                        "is_senior_member": 0,
+                        "name_render": null,
+                        "handle": ""
+                    }
+                },
+                {
+                    "id": 1879251151921369344,
+                    "lan": "ai-zh",
+                    "lan_doc": "中文",
+                    "is_lock": false,
+                    "subtitle_url": "",
+                    "type": 1,
+                    "id_str": "1879251151921369344",
+                    "ai_type": 0,
+                    "ai_status": 2,
+                    "subtitle_height": null,
+                    "author": {
+                        "mid": 0,
+                        "name": "",
+                        "sex": "",
+                        "face": "",
+                        "sign": "",
+                        "rank": 0,
+                        "birthday": 0,
+                        "is_fake_account": 0,
+                        "is_deleted": 0,
+                        "in_reg_audit": 0,
+                        "is_senior_member": 0,
+                        "name_render": null,
+                        "handle": ""
+                    }
+                }
+            ]
+        },
+        "is_season_display": false,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {
+            "honor": [
+                {
+                    "aid": 115485429467771,
+                    "type": 7,
+                    "desc": "热门收录",
+                    "weekly_recommend_num": 0
+                }
+            ]
+        },
+        "like_icon": "",
+        "need_jump_bv": false,
+        "disable_show_up_info": false,
+        "is_story_play": 1,
+        "is_view_self": false
+    }
+}
