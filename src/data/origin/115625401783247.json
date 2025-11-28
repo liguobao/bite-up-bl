@@ -1,0 +1,153 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV1aUS5BSE6Q",
+        "aid": 115625401783247,
+        "videos": 1,
+        "tid": 21,
+        "tid_v2": 2162,
+        "tname": "日常",
+        "tname_v2": "农村种植",
+        "copyright": 1,
+        "pic": "http://i1.hdslb.com/bfs/archive/335035ddb045661d1f86d5dda690fad0f6ef33e4.jpg",
+        "title": "这玩楞丢嘴里就得劲啊！",
+        "pubdate": 1764304016,
+        "ctime": 1764304016,
+        "desc": "-",
+        "desc_v2": [
+            {
+                "raw_text": "-",
+                "type": 1,
+                "biz_id": 0
+            }
+        ],
+        "state": 0,
+        "duration": 291,
+        "mission_id": 4053098,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 0,
+            "no_reprint": 1,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 22089099,
+            "name": "手艺贾",
+            "face": "https://i0.hdslb.com/bfs/face/6192f0ae708a9c9aa6838d699b5a9134e1ada6c8.jpg"
+        },
+        "stat": {
+            "aid": 115625401783247,
+            "view": 133173,
+            "danmaku": 402,
+            "reply": 984,
+            "favorite": 497,
+            "coin": 197,
+            "share": 103,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 7938,
+            "dislike": 0,
+            "evaluation": "",
+            "vt": 0
+        },
+        "argue_info": {
+            "argue_msg": "",
+            "argue_type": 0,
+            "argue_link": ""
+        },
+        "dynamic": "",
+        "cid": 34324612079,
+        "dimension": {
+            "width": 1080,
+            "height": 1920,
+            "rotate": 0
+        },
+        "premiere": null,
+        "teenage_mode": 1,
+        "is_chargeable_season": false,
+        "is_story": true,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "is_upower_preview": false,
+        "enable_vt": 0,
+        "vt_display": "",
+        "is_upower_exclusive_with_qa": false,
+        "no_cache": false,
+        "pages": [
+            {
+                "cid": 34324612079,
+                "page": 1,
+                "from": "vupload",
+                "part": "这玩楞丢嘴里就得劲啊！",
+                "duration": 291,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1080,
+                    "height": 1920,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/_000003a8ww6rtr7061zwpq4xohqnvfb_firsti.jpg",
+                "ctime": 1764304016
+            }
+        ],
+        "subtitle": {
+            "allow_submit": false,
+            "list": [
+                {
+                    "id": 1897114079198459392,
+                    "lan": "ai-zh",
+                    "lan_doc": "中文",
+                    "is_lock": false,
+                    "subtitle_url": "",
+                    "type": 1,
+                    "id_str": "1897114079198459392",
+                    "ai_type": 0,
+                    "ai_status": 2,
+                    "subtitle_height": null,
+                    "author": {
+                        "mid": 0,
+                        "name": "",
+                        "sex": "",
+                        "face": "",
+                        "sign": "",
+                        "rank": 0,
+                        "birthday": 0,
+                        "is_fake_account": 0,
+                        "is_deleted": 0,
+                        "in_reg_audit": 0,
+                        "is_senior_member": 0,
+                        "name_render": null,
+                        "handle": ""
+                    }
+                }
+            ]
+        },
+        "is_season_display": false,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {},
+        "like_icon": "",
+        "need_jump_bv": false,
+        "disable_show_up_info": false,
+        "is_story_play": 1,
+        "is_view_self": false
+    }
+}

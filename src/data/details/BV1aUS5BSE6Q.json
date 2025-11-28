@@ -1,0 +1,56 @@
+{
+  "bvid": "BV1aUS5BSE6Q",
+  "uploader": {
+    "id": "up_22089099",
+    "name": "手艺贾",
+    "avatar": "https://i0.hdslb.com/bfs/face/6192f0ae708a9c9aa6838d699b5a9134e1ada6c8.jpg",
+    "bio": "",
+    "followerCount": 0,
+    "verified": false
+  },
+  "videoInfo": {
+    "title": "这玩楞丢嘴里就得劲啊！",
+    "videoUrl": "https://www.bilibili.com/video/BV1aUS5BSE6Q",
+    "thumbnail": "https://i1.hdslb.com/bfs/archive/335035ddb045661d1f86d5dda690fad0f6ef33e4.jpg",
+    "duration": "04:51",
+    "publishDate": "2025-11-28T04:26:56.000Z",
+    "likeCount": 7938,
+    "description": "-"
+  },
+  "specialtyProduct": {
+    "title": "精品现摘丹东99红颜草莓顺丰空运包邮",
+    "description": "新鲜现摘，甜度高，口感好，限时包邮到家！",
+    "tags": [
+      "农村种植",
+      "日常"
+    ]
+  },
+  "externalLinks": [
+    {
+      "title": "手艺贾 · B站主页",
+      "url": "https://space.bilibili.com/22089099",
+      "type": "profile",
+      "platform": "bilibili"
+    },
+    {
+      "title": "精品现摘丹东99红颜草莓顺丰空运包邮",
+      "url": "https://mall.bilibili.com/neul-next/detailuniversal/detail.html?isMerchant=1&page=detailuniversal_detail&saleType=0&itemsId=40042133&loadingShow=1&noTitleBar=1&track_id=__BGMT__&from=&from_spmid=__SPMID__&msource=cps_comments_22089099_cont-1-115625401783247",
+      "type": "purchase",
+      "platform": "bilibili"
+    },
+    {
+      "title": "视频原链接",
+      "url": "https://www.bilibili.com/video/BV1aUS5BSE6Q",
+      "type": "video",
+      "platform": "bilibili"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-11-28T04:26:56.000Z",
+    "updatedAt": "2025-11-28T04:26:56.000Z",
+    "status": "published",
+    "category": "农村种植",
+    "region": "全国",
+    "featured": false
+  }
+}
